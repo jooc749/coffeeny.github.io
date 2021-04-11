@@ -241,63 +241,78 @@ a{
 
 .coffee-container.uptown.double_dutch{
     position:absolute;
-    top:330px;
-    left:100px;
+    top:510px;
+    left:120px;
 }
 
 .forever{
     position:absolute;
-    top:10px;
+    top:25px;
     left:50px;
 }
 
  .semicolon{
     position:absolute;
-    top:130px;
+    top:200px;
     left:30px;
 }
 
-/* .salento{
+.salento{
     position:absolute;
-    top:200px;
-    left:270px;
+    top:180px;
+    left:100px;
 }
 
 .chipped_cup{
     position:absolute;
-    top:325px;
-    left:80px;
+    top:280px;
+    left:30px;
 }
 
 .manhattanville{
     position:absolute;
-    top:385px;
-    left:320px;
+    top:290px;
+    left:130px;
 }
 
 .el_barrista{
-   position:absolute;
-   top:590px;
-   left:500px;
+    position:absolute;
+    top:510px;
+    left:180px;
 }
 
 .black_press{
-   position:absolute;
-   top:990px;
-   left:80px;
+    position:absolute;
+    top:840px;
+    left:30px;
 }
 
 .solid_state{
-   position:absolute;
-   top:1010px;
-   left:100px;
+    position:absolute;
+    top:880px;
+    left:30px;
 }
 
 .box_kite{
-   position:absolute;
-   top:1000px;
-   left:80px;
+    position:absolute;
+    top:860px;
+    left:30px;
 }
+
+.le_reveil{
+    position:absolute;
+    top:880px;
+    left:190px;
+}
+
+.daniels{
+    position:absolute;
+    top:920px;
+    left:190px;
+}
+
+
+/* 
 
 .le_reveil{
    position:absolute;
