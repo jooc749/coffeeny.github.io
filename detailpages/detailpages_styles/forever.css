@@ -1,11 +1,10 @@
 body{
-    background-image:linear-gradient(#26cdeb,#ff392b,#58bf66, #ed2da0) fixed; 
+    background-image:linear-gradient(#26cdeb,#ff392b,#58bf66, #ed2da0); 
     font-family: 'Gilda Display', serif;
 }
 
-/* html{
-    height:100vh;
-} */
+html{
+min-height: 100%;}
 
 .header{
     display:flex;
@@ -42,8 +41,7 @@ body{
 }
 
 .location{
- 
-    position:absolute;
+  text-align:center;
     
     
 }
@@ -77,16 +75,16 @@ a{
 }
 
 .map{
-   width:20%;
+   
    position:absolute;
    bottom:10px;
    padding:10px;
    margin-top:50px;
-   top:600px;
+    align-items:center;
 }
 
 iframe{
-    width:fit-content;
+    width:100vw;
 }
 
 
