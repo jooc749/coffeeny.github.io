@@ -240,10 +240,79 @@ a{
 }
 
 .coffee-container.uptown.double_dutch{
-    position:fixed;
-    top:150px;
-    left:120px;
+    position:absolute;
+    top:330px;
+    left:100px;
 }
+
+.forever{
+    position:absolute;
+    top:10px;
+    left:50px;
+}
+
+ .semicolon{
+    position:absolute;
+    top:130px;
+    left:30px;
+}
+
+/* .salento{
+    position:absolute;
+    top:200px;
+    left:270px;
+}
+
+.chipped_cup{
+    position:absolute;
+    top:325px;
+    left:80px;
+}
+
+.manhattanville{
+    position:absolute;
+    top:385px;
+    left:320px;
+}
+
+.el_barrista{
+   position:absolute;
+   top:590px;
+   left:500px;
+}
+
+.black_press{
+   position:absolute;
+   top:990px;
+   left:80px;
+}
+
+.solid_state{
+   position:absolute;
+   top:1010px;
+   left:100px;
+}
+
+.box_kite{
+   position:absolute;
+   top:1000px;
+   left:80px;
+}
+
+.le_reveil{
+   position:absolute;
+   top:1020px;
+   left:550px;
+}
+
+.daniels{
+   position:absolute;
+   top:1080px;
+   left:550px;
+} */ 
+
+
+
 
 .midtown, .brooklyn, .bronx, .stisland, .downtown{
     display:none;
