@@ -1,11 +1,12 @@
 body{
-    background-image:linear-gradient(#26cdeb,#ff392b,#58bf66, #ed2da0);
+    background-image:linear-gradient(#26cdeb,#ff392b,#58bf66, #ed2da0) fixed; 
     font-family: 'Gilda Display', serif;
 }
 
-html{
-    height:100%;
-}
+/* html{
+    height:100vh;
+} */
+
 .header{
     display:flex;
 }
