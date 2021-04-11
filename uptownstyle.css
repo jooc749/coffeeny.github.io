@@ -27,7 +27,11 @@ h2{
     font-size:1rem;
 }
 
-.midtown, .brooklyn, .downtown, .bronx, .stisland{
+/* .midtown, .brooklyn, .downtown, .bronx, .stisland{
+    display:none;
+} */
+
+.midtown{
     display:none;
 }
 
@@ -241,11 +245,6 @@ a{
     left:120px;
 }
 
-.coffee-container.midtown.culture.more_than_coffee{
-    position:fixed;
-    top:400px;
-    left:180px;
-}
 
 
 @media only screen and (min-width:800px){
@@ -267,12 +266,13 @@ a{
         font-size:1rem;
     }
     
-    .uptown1, .midtown1, .downtown1, .brooklyn1, .bronx1,.stisland1{
+    .uptown1, .midtown1, .downtown1, .brooklyn1, .bronx1,.StIsland1{
         display:inline-block;
         font-size:1rem;
         padding:10px;
     }
-    .uptown2, .midtown2, .downtown2, .brooklyn2, .bronx2,.stisland2{
+
+    .uptown2, .midtown2, .downtown2, .brooklyn2, .bronx2,.StIsland2{
         display:none;
     }
     
