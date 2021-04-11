@@ -1,4 +1,4 @@
-.eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0{
+.eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0, .eighty0, .seventyfive0, .seventy0, .sixtyfive0, .sixty0, .blank{
     display:list-item;
     list-style:none;
     font-size:0.8rem;
@@ -27,11 +27,24 @@ h2{
     font-size:1rem;
 }
 
-.uptown, .midtown, .downtown, .brooklyn{
+.midtown, .brooklyn, .downtown, .bronx, .stisland{
+    display:none;
+}
+
+.locationnavbar{
+    display:none;
+}
+
+
+.uptown2, .midtown2, .downtown2, .brooklyn2{
     display:inline-block;
     font-size:1rem;
     padding:10px;
 
+}
+
+h1{
+    font-size:1rem;
 }
 
 h3{
@@ -42,8 +55,8 @@ h3{
 .coffee-container{
     /* padding:1rem; */
     border: 1px solid bisque;
-    width:0.05rem;
-    height:0.05rem;
+    width:1.5rem;
+    height:1.5rem;
     border-radius:50%;
     display:inline-block;
     
@@ -233,6 +246,7 @@ a{
     left:180px;
 }
 
+
 @media only screen and (min-width:800px){
     body {
         font-family: 'Gilda Display', serif;
@@ -257,6 +271,10 @@ a{
         font-size:1rem;
         padding:10px;
     }
+    .uptown2, .midtown2, .downtown2, .brooklyn2, .bronx2,.stisland2{
+        display:none;
+    }
+    
     
     h3{
        padding:30px;
