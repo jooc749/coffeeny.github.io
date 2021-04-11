@@ -100,7 +100,7 @@ h3{
 
 .line{
     display:block;
-    font-size:1rem;
+    /* font-size:1rem; */
     position:relative;
     /* bottom:10px; */
     text-align:center;
