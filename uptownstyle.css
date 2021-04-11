@@ -165,9 +165,10 @@ p{
     z-index:1;
     top:0;
     right:0;
-    background-color:#A8947C;
+    background-color:rgb(12,12,12);
     overflow-x:hidden;
     transition:0.5s;
+    text-align:right;
 }
 
 .sidebar a {
