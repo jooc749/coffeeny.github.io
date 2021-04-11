@@ -34,21 +34,28 @@ html{
 
 .address{
     margin-top:80px;
-   margin-left:auto;
-   margin-right:auto;
+   position:absolute;
+
 }
 
 .location{
     text-align:center;
     
+    
 }
 
 h3{
-    font-size:1.5rem;
+    font-size:2rem;
+    font-weight:bold;
+    padding-top:20px;
+
 }
 
 h2{
     font-size:1.2rem;
+    padding-left:20px;
+    padding-right:20px;
+    text-align:center;
 }
 
 .tags {
@@ -67,10 +74,11 @@ a{
 }
 
 iframe{
-   width:fit-content;
+   width:90%;
    position:absolute;
-   bottom:20px;
-   left:40px;
+   bottom:10px;
+   
+   padding:10px;
 }
 
 
