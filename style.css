@@ -54,26 +54,37 @@ h3{
 }
 
 .store-image.active{
-    display:block;
+    display:flex;
+    width:70%;
+    position:relative;
+
+    z-index:100;
+    /* margin-top:150px; */
   
 }
 
 .address-location {
     display:none;
-    width:100%;
+
 }
 
 .address-location.active{
-    display:block;
+    display:flex;
+    width:80%;
+    font-size:1rem;
+    position:relative;
+
+
 }
 
 .shop-title{
     display:none;
-    width:100%;
+   
 }
 
 .shop-title.active{
     display:block;
+    font-size:1.2rem;
   
 }
 
@@ -201,13 +212,15 @@ button{
 
 
 .coffee-description{
-    width:40%;
+    width:50%;
+    height:fit-content;
     background-color:#A8947C;
     color:black;
     position:absolute;
     margin-left: 100px;
     z-index:100;
-    /* margin-top:150px; */
+  
+    margin-top:-50px;
 }
 
 .store-image{
@@ -312,25 +325,28 @@ h3{
 
 .store-image.active{
     display:block;
-  
+    
 }
 
 .address-location {
     display:none;
-    width:100%;
+  
 }
 
 .address-location.active{
-    display:block;
+    display:flex;
+    width:80%;
+    font-size:0.9rem;
 }
 
 .shop-title{
     display:none;
-    width:100%;
+
 }
 
 .shop-title.active{
     display:block;
+    width:80%;
   
 }
 
@@ -461,11 +477,12 @@ button{
 
 .coffee-description{
     width:250px;
-    height:auto;
+    /* height:auto; */
     background-color:#A8947C;
     color:black;
-    position:absolute;
-    left: 600px;
+    position:fixed;
+    right: 50px;
+    bottom:50px;
     /* z-index:100; */
     /* display:none; */
     
@@ -777,6 +794,7 @@ a{
     top:390px;
     left:280px;
 }
+
 
 .coffee-container.downtown.woman_owned.more_than_coffee.aesthetic.maman{
     position:absolute;

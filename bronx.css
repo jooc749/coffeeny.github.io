@@ -1,4 +1,4 @@
-.eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0{
+.eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0, .eighty0, .seventyfive0, .seventy0, .sixtyfive0, .sixty0, .blank{
     display:list-item;
     list-style:none;
     font-size:0.8rem;
@@ -27,11 +27,28 @@ h2{
     font-size:1rem;
 }
 
-.uptown, .midtown, .downtown, .brooklyn{
+/* .midtown, .brooklyn, .downtown, .bronx, .stisland{
+    display:none;
+} */
+
+.midtown{
+    display:none;
+}
+
+.locationnavbar{
+    display:none;
+}
+
+
+.uptown2, .midtown2, .downtown2, .brooklyn2{
     display:inline-block;
     font-size:1rem;
     padding:10px;
 
+}
+
+h1{
+    font-size:1rem;
 }
 
 h3{
@@ -42,8 +59,8 @@ h3{
 .coffee-container{
     /* padding:1rem; */
     border: 1px solid bisque;
-    width:0.05rem;
-    height:0.05rem;
+    width:35px;
+    height:35px;
     border-radius:50%;
     display:inline-block;
     
@@ -97,7 +114,7 @@ h3{
     font-size:0.8rem;
     position:absolute;
     margin-top:10px;
-    line-height:200%;
+    line-height:300%;
 }
 
 p{
@@ -124,7 +141,8 @@ p{
 
 .title{
     display:inline-block;
-    font-size:0.5rem;
+ 
+
 }
 
 .filtermenu {
@@ -152,9 +170,10 @@ p{
     z-index:1;
     top:0;
     right:0;
-    background-color:#A8947C;
+    background-color:rgb(12,12,12);
     overflow-x:hidden;
     transition:0.5s;
+    text-align:right;
 }
 
 .sidebar a {
@@ -185,6 +204,7 @@ button{
 .closebtn {
     text-align:right;
     margin-right:20px;
+    color:bisque;
 }
 
 
@@ -221,16 +241,23 @@ a{
     color:bisque;
 }
 
-.coffee-container.uptown.double_dutch{
-    position:fixed;
-    top:150px;
-    left:120px;
+.clipper{
+    position:absolute;
+    top:330px;
+    left:150px;
 }
 
-.coffee-container.midtown.culture.more_than_coffee{
-    position:fixed;
-    top:400px;
-    left:180px;
+h1{
+font-weight:bolder;
+font-size:1.5rem;
+}
+
+
+
+
+
+.midtown, .brooklyn, .uptown, .stisland, .downtown{
+    display:none;
 }
 
 @media only screen and (min-width:800px){
@@ -252,11 +279,16 @@ a{
         font-size:1rem;
     }
     
-    .uptown1, .midtown1, .downtown1, .brooklyn1, .bronx1,.stisland1{
+    .uptown1, .midtown1, .downtown1, .brooklyn1, .bronx1,.StIsland1{
         display:inline-block;
         font-size:1rem;
         padding:10px;
     }
+
+    .uptown2, .midtown2, .downtown2, .brooklyn2, .bronx2,.StIsland2{
+        display:none;
+    }
+    
     
     h3{
        padding:30px;
@@ -332,7 +364,11 @@ a{
         font-size:1rem;
     }
     
-    
+    .clipper{
+        position:absolute;
+        top:370px;
+        left:450px;
+    }
     
     .filter {
         position:sticky;
@@ -475,75 +511,11 @@ a{
         display:none;
     }
 
-    .forever{
-        position:absolute;
-        top:35px;
-        left:200px;
-    }
-
-    .semicolon{
-        position:absolute;
-        top:235px;
-        left:80px;
-    }
-
-    .salento{
-        position:absolute;
-        top:200px;
-        left:270px;
-    }
-
-    .chipped_cup{
-        position:absolute;
-        top:325px;
-        left:80px;
-    }
-
-    .manhattanville{
-        position:absolute;
-        top:385px;
-        left:320px;
-    }
-
-   .el_barrista{
-       position:absolute;
-       top:590px;
-       left:500px;
-   }
-
-   .black_press{
-       position:absolute;
-       top:990px;
-       left:80px;
-   }
-
-   .solid_state{
-       position:absolute;
-       top:1010px;
-       left:100px;
-   }
-
-   .box_kite{
-       position:absolute;
-       top:1000px;
-       left:80px;
-   }
-
-   .le_reveil{
-       position:absolute;
-       top:1020px;
-       left:550px;
-   }
-
-   .daniels{
-       position:absolute;
-       top:1080px;
-       left:550px;
-   }
-
+    
    .locationnavbar{
        overflow:hidden;
        background-color:pink;
+       display:block;
    }
 
    .subnav{
@@ -575,20 +547,18 @@ a{
    .subnav-content{
        display:none;
        position:fixed;
-        left:-200px;
-       top:350px;
+        left:-220px;
+       top:370px;
        height:120px;
        z-index:1;
    }
 
-   .bronx1{
-       padding-right:20px;
+   .StIsland1{
+       padding-left:30px;
    }
 
-   .bronx{
-       position:absolute;
-       top:360px;
-       left:350px;
+   .bronx1{
+       padding-right:20px;
    }
 
 
@@ -600,4 +570,5 @@ a{
         
      
    }
+
 }

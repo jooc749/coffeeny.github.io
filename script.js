@@ -104,7 +104,7 @@ function showCoffee() {
         
 
 
-        //add event listener for when click on coffee container, image and address will display and disappear 
+        // add event listener for when click on coffee container, image and address will display and disappear 
         coffeeContainer.addEventListener("mouseover", function(){
           addressLocation.classList.toggle("active");
           storeImage.classList.toggle("active");
@@ -112,10 +112,11 @@ function showCoffee() {
         })
 
         coffeeContainer.addEventListener("mouseout", function(){
-          addressLocation.classList.toggle("hide");
-          storeImage.classList.toggle("hide");
-          shopTitle.classList.toggle("hide");
+          addressLocation.classList.toggle("none");
+          storeImage.classList.toggle("none");
+          shopTitle.classList.toggle("none");
         })
+
 
         // coffeeContainer.addEventListener("click", function pageRedirect(){
         //   window.location.replace("secondary_oxalis.html");
@@ -438,6 +439,13 @@ coffeeContainer.addEventListener("click", function createPage(){
                 window.location.replace("detailpages/yours.html");
             }
           })
+
+           //detail page for CLIPPER (bronx)
+                   coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("clipper")){
+                        window.location.replace("detailpages/clipper.html");
+                    }
+                  })
        
        
        
