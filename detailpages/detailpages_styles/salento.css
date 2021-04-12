@@ -135,6 +135,7 @@ body{
 .group{
     display:block;
     align-items:center;
+    position:relative;
 }
 
 .location{
