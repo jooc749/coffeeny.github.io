@@ -650,6 +650,7 @@ a{
    .locationnavbar{
        overflow:hidden;
        background-color:pink;
+       display:block;
    }
 
    .subnav{
@@ -681,10 +682,14 @@ a{
    .subnav-content{
        display:none;
        position:fixed;
-        left:-200px;
-       top:350px;
+        left:-220px;
+       top:370px;
        height:120px;
        z-index:1;
+   }
+
+   .StIsland1{
+       padding-left:30px;
    }
 
    .bronx1{
