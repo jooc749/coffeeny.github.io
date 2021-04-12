@@ -170,7 +170,7 @@ p{
     z-index:1;
     top:0;
     right:0;
-    background-color:rgb(12,12,12);
+    background-color:transparent;
     overflow-x:hidden;
     transition:0.5s;
     text-align:right;

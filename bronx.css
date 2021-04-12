@@ -304,33 +304,7 @@ font-size:1.5rem;
         display:inline-block;
     }
     
-    .store-image {
-       display:none;
-    }
-    
-    .store-image.active{
-        display:block;
-      
-    }
-    
-    .address-location {
-        display:none;
-        width:100%;
-    }
-    
-    .address-location.active{
-        display:block;
-    }
-    
-    .shop-title{
-        display:none;
-        width:100%;
-    }
-    
-    .shop-title.active{
-        display:block;
-      
-    }
+   
     
     .yaxis{
         width:1px;
@@ -454,17 +428,49 @@ font-size:1.5rem;
         cursor:pointer;
     }
     
-    .coffee-description{
-        width:40%;
-        height:auto;
-        background-color:#A8947C;
-        color:black;
-        position:absolute;
-        margin-left: 300px;
-        z-index:100;
-        margin-top:150px;
-        display:none;
-    }
+    
+
+.store-image{
+    display:inline;
+    /* width:100%; */
+    width:120%;
+    height:auto;
+ 
+
+    
+}
+
+
+
+.address-location{
+ display:flex;
+ font-size:0.9rem;
+}
+
+
+
+.shop-title{
+    display:flex;
+  
+}
+
+.coffee-description{
+    /* width:250px;
+    /* height:auto; */
+    /* background-color:#A8947C;
+    color:black;
+    position:fixed;
+    right: 50px;
+    bottom:50px; */
+    /* z-index:100; */
+    /* display:none; */
+    display:none;
+    width:30vw;
+    height:auto;
+    background-color:#A8947C;
+    position:relative;
+    
+}
     
     .store-image{
         width:30%;

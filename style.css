@@ -319,35 +319,48 @@ h3{
     display:inline-block;
 }
 
-.store-image {
-   display:none;
-}
 
-.store-image.active{
-    display:block;
+
+.store-image{
+    display:inline;
+    /* width:100%; */
+    width:120%;
+    height:auto;
+ 
+
     
 }
 
-.address-location {
-    display:none;
-  
+
+
+.address-location{
+ display:flex;
+ font-size:0.9rem;
 }
 
-.address-location.active{
-    display:flex;
-    width:80%;
-    font-size:0.9rem;
-}
+
 
 .shop-title{
-    display:none;
-
+    display:flex;
+  
 }
 
-.shop-title.active{
-    display:block;
-    width:80%;
-  
+.coffee-description{
+    /* width:250px;
+    /* height:auto; */
+    /* background-color:#A8947C;
+    color:black;
+    position:fixed;
+    right: 50px;
+    bottom:50px; */
+    /* z-index:100; */
+    /* display:none; */
+    display:none;
+    width:30vw;
+    height:auto;
+    background-color:#A8947C;
+    position:relative;
+    
 }
 
 .yaxis{
@@ -475,19 +488,7 @@ button{
 
 
 
-.coffee-description{
-    width:250px;
-    /* height:auto; */
-    background-color:#A8947C;
-    color:black;
-    position:fixed;
-    right: 50px;
-    bottom:50px;
-    /* z-index:100; */
-    /* display:none; */
-    
-    
-}
+
 
 .detailheader{
     display:none;

@@ -106,15 +106,11 @@ function showCoffee() {
 
         // add event listener for when click on coffee container, image and address will display and disappear 
         coffeeContainer.addEventListener("mouseover", function(){
-          addressLocation.classList.toggle("active");
-          storeImage.classList.toggle("active");
-          shopTitle.classList.toggle("active");
+          coffeeDescription.style.display = "block";
         })
 
         coffeeContainer.addEventListener("mouseout", function(){
-          addressLocation.classList.toggle("none");
-          storeImage.classList.toggle("none");
-          shopTitle.classList.toggle("none");
+          coffeeDescription.style.display = "none";
         })
 
 
