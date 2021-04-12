@@ -9,7 +9,79 @@ body{
 
 .title{
     display:inline-block;
-    font-size:0.8rem;}
+}
+
+h1{
+    font-size:1rem;
+}
+
+.header-right{
+    display:inline-block;
+    text-align:right;
+    position:absolute;
+    right:10px;
+
+
+}
+
+.uptown:hover{
+    color:pink;
+}
+
+
+.address{
+    margin-top:80px;
+   margin-left:30px;
+   margin-right:30px;
+}
+
+.location{
+    text-align:center;
+    
+}
+
+h3{
+    font-size:1.2rem;
+}
+
+h2{
+    font-size:1rem;
+}
+
+.tags {
+    display:inline-block;
+    font-size:0.8rem;
+    width:50%;
+}
+
+.tag1, .tag2, .tag3{
+    display:inline-block;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+iframe{
+    width:400px;
+    height:250px;
+}
+
+@media only screen and (min-width:800px){
+
+body{
+    background-image:radial-gradient(#f598b2,#ff392b,#d7bcf5,#58bf66);
+    font-family: 'Gilda Display', serif;
+}
+
+.header{
+    display:flex;
+}
+
+.title{
+    display:inline-block;
+    }
 
 .header-right{
     display:inline-block;
@@ -36,6 +108,9 @@ body{
     
 }
 
+h1{
+    font-size:1.8rem;
+}
 h3{
     font-size:1.5rem;
 }
@@ -46,7 +121,8 @@ h2{
 
 .tags {
     display:block;
-  
+    font-size:1rem;
+    width:100%;
 }
 
 .tag1, .tag2, .tag3{
@@ -58,3 +134,8 @@ a{
     color:black;
 }
 
+iframe{
+    width:600px;
+    height:450px;
+}
+}
