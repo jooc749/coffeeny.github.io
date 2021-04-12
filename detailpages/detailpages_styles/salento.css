@@ -44,6 +44,8 @@ h1{
 .group{
     display:block;
     align-items:center;
+    position:absolute;
+    left:20px;
 }
 
 .location{
@@ -83,8 +85,8 @@ a{
 }
 
 .iframesmall iframe{
-    width:50vw;
-    height:40vh;
+    width:70vw;
+    height:50vh;
 }
 
 .iframebig{
