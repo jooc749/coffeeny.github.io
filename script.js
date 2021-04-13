@@ -604,7 +604,7 @@ coffeeContainer.addEventListener("click", function createPage(){
   
              //detail page for chai (downtown)
              coffeeContainer.addEventListener("click", function createPage(){
-              if(coffeeContainer.classList.contains("chai")){
+              if(coffeeContainer.classList.contains("chai_spot")){
                   window.location.replace("detailpages/chai.html");
               }
             })
