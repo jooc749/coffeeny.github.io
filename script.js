@@ -56,22 +56,7 @@ function showCoffee() {
     console.log("showCoffee()");
     coffee.forEach((coffee) => {
       
-        // var shopTitle = document.createElement("h2");
-        // shopTitle.innerText = coffee.fields.name;
-        // document.body.append(shopTitle);
-
-      
-        // var address = document.createElement("h2");
-        // address.innerText = coffee.fields.location;
-        // document.body.append(address);
-
-        // var hours = document.createElement("h2");
-        // hours.innerText = coffee.fields.time;
-        // document.body.append(hours);
-
-        // var storeImage = document.createElement("img");
-        // storeImage.src = coffee.fields.store_image[0].url;
-        // document.body.append(storeImage);
+       
 
         //create a new div container for coffee 
         var coffeeContainer = document.createElement("div");

@@ -465,7 +465,7 @@ p{
     color:black;
     display:block;
     transition:0.2s;
-   
+   cursor: pointer;
 }
 
 button{
