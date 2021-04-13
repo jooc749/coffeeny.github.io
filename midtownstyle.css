@@ -35,17 +35,17 @@ h2{
     display:none;
 }
 
-.locationnavbar{
+/* .locationnavbar{
     display:none;
-}
+} */
 
 
-.uptown2, .midtown2, .downtown2, .brooklyn2{
+/* .uptown2, .midtown2, .downtown2, .brooklyn2{
     display:inline-block;
     font-size:1rem;
     padding:10px;
 
-}
+} */
 
 h1{
     font-size:1.5rem;
@@ -170,7 +170,7 @@ p{
     z-index:1;
     top:0;
     right:0;
-    background-color:transparent;
+    background-color:rgb(12, 12, 12);
     overflow-x:hidden;
     transition:0.5s;
     text-align:right;
@@ -185,7 +185,7 @@ p{
     transition:0.2s;
 }
 
-button{
+.openbtn {
     background-color:transparent;
     border:none;
     color:bisque;
@@ -228,13 +228,13 @@ button{
 }
 
 
-.location{
+/* .location{
     text-align:right;
     display:flex;
     position:fixed;
     bottom:20px;
     right:10px;
-}
+} */
 
 a{
     text-decoration:none;
@@ -286,6 +286,65 @@ a{
 
 
 .uptown, .brooklyn, .bronx, .stisland, .downtown{
+    display:none;
+}
+
+.uptown1, .midtown1, .downtown1, .brooklyn1, .bronx1,.StIsland1{
+    display:inline-block;
+    font-size:1rem;
+    padding:15px;
+}
+
+.locationnavbar{
+    overflow:hidden;
+    background-color:pink;
+    display:block;
+}
+
+.subnav{
+    float:left;
+    overflow:hidden;
+}
+
+.subnavbtn{
+    position:fixed;
+    left:10px;
+    top:110px;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:rgb(75, 52, 44);
+    z-index:100;
+    border-style:0px solid transparent;
+}
+
+.subnav .subnavbtn{
+    margin:0;
+    transform:rotate(90deg);
+}
+
+.navbar a, .subnav-content{
+    background:rgb(12, 12, 12);
+}
+
+.subnav-content{
+    display:none;
+    position:fixed;
+     left:-280px;
+    top:430px;
+    height:50px;
+    z-index:1;
+    transform:rotate(-90deg);
+    
+}
+
+
+
+.StIsland1{
+    margin-left:20px;
+}
+
+.location{
     display:none;
 }
 
