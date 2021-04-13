@@ -460,8 +460,8 @@ font-size:1.5rem;
     width:max-content;
     height:auto;
     background-color:#A8947C;
-    position:relative;
-    right:20px;
+    position:absolute;
+    right:100px;
     bottom:20px;
     
 }

@@ -512,17 +512,8 @@ a{
         color:bisque;
     }
     
-    .coffee-container.uptown.double_dutch{
-        position:absolute;
-        top:580px;
-        left:250px;
-    }
+ 
 
-    .coffee-container.midtown.culture.more_than_coffee{
-        position:absolute;
-        top:380px;
-        left:400px;
-    }
     
     p{
         display:none;
@@ -536,71 +527,7 @@ a{
         display:none;
     }
 
-    .forever{
-        position:absolute;
-        top:35px;
-        left:200px;
-    }
-
-    .semicolon{
-        position:absolute;
-        top:235px;
-        left:80px;
-    }
-
-    .salento{
-        position:absolute;
-        top:200px;
-        left:270px;
-    }
-
-    .chipped_cup{
-        position:absolute;
-        top:325px;
-        left:80px;
-    }
-
-    .manhattanville{
-        position:absolute;
-        top:385px;
-        left:320px;
-    }
-
-   .el_barrista{
-       position:absolute;
-       top:590px;
-       left:500px;
-   }
-
-   .black_press{
-       position:absolute;
-       top:990px;
-       left:80px;
-   }
-
-   .solid_state{
-       position:absolute;
-       top:1010px;
-       left:100px;
-   }
-
-   .box_kite{
-       position:absolute;
-       top:1000px;
-       left:80px;
-   }
-
-   .le_reveil{
-       position:absolute;
-       top:1020px;
-       left:550px;
-   }
-
-   .daniels{
-       position:absolute;
-       top:1080px;
-       left:550px;
-   }
+    
 
    .locationnavbar{
        overflow:hidden;
@@ -662,46 +589,47 @@ a{
    }
 
 
+
 .rex{
     position:absolute;
-    top:50px;
-    left:30px;
+    top:60px;
+    left:70px;
 }
 
 .zibetto{
     position:absolute;
-    top:70px;
-    left:180px;
+    top:90px;
+    left:300px;
 }
 
 .mamas{
     position:absolute;
-    top:190px;
-    left:230px;
+    top:220px;
+    left:400px;
 }
 
 .bibble{
     position:absolute;
-    top:270px;
-    left:80px;
+    top:320px;
+    left:210px;
 }
 
 .for_five{
     position:absolute;
-    top:450px;
-    left:180px;
+    top:530px;
+    left:300px;
 }
 
 .culture{
     position:absolute;
-    top:750px;
-    left:180px;
+    top:900px;
+    left:280px;
 }
 
 .old_country{
     position:absolute;
-    top:900px;
-    left:50px;
+    top:1050px;
+    left:70px;
 }
 
 

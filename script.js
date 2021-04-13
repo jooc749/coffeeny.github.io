@@ -442,7 +442,8 @@ coffeeContainer.addEventListener("click", function createPage(){
                         window.location.replace("detailpages/clipper.html");
                     }
                   })
-       
+
+                 
        
        
        
