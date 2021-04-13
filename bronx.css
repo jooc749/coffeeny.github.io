@@ -66,7 +66,7 @@ h3{
     
 }
 
-.store-image {
+/* .store-image {
    display:none;
 }
 
@@ -91,8 +91,8 @@ h3{
 
 .shop-title.active{
     display:block;
-  
-}
+ } */
+
 
 .yaxis{
     width:1px;
@@ -209,7 +209,7 @@ button{
 
 
 
-.coffee-description{
+/* .coffee-description{
     width:40%;
     background-color:#A8947C;
     color:black;
@@ -217,7 +217,7 @@ button{
     margin-left: 100px;
     z-index:100;
     /* margin-top:150px; */
-}
+/* } */ 
 
 .store-image{
     width:30%;
@@ -295,15 +295,7 @@ font-size:1.5rem;
        font-weight:bold;
     }
     
-    .coffee-container{
-        padding:1rem;
-        border: 1px solid bisque;
-        width:0.01rem;
-        height:0.01rem;
-        border-radius:50%;
-        display:inline-block;
-    }
-    
+   
    
     
     .yaxis{
@@ -465,28 +457,14 @@ font-size:1.5rem;
     /* z-index:100; */
     /* display:none; */
     display:none;
-    width:30vw;
+    width:max-content;
     height:auto;
     background-color:#A8947C;
     position:relative;
+    right:20px;
+    bottom:20px;
     
 }
-    
-    .store-image{
-        width:30%;
-        padding:30px;
-        position:absolute;
-        top:0;
-        right:0;
-    }
-    
-    .location{
-        text-align:right;
-        display:flex;
-        position:absolute;
-        bottom:20px;
-        right:10px;
-    }
     
     a{
         text-decoration:none;
