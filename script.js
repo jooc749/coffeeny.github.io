@@ -132,9 +132,9 @@ function showCoffee() {
           
         })
 
-        document.querySelector(".subnavbtn").addEventListener("click", function(){
-          document.querySelector(".subnav-content").display = "flex";
-        })
+        // document.querySelector(".subnavbtn").addEventListener("click", function(){
+        //   document.querySelector(".subnav-content").display = "flex";
+        // })
 
         //detail page for SALENTO (uptown)
 
