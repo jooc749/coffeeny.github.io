@@ -326,46 +326,33 @@ h3{
 .store-image{
     width:80%;
     display:inline-block;
-    padding:30px;
+    
     position:relative;
     bottom:0;
-    left:0;
-    vertical-align: top;
     
 }
-
-
 
 .address-location{
  display:flex;
  font-size:0.9rem;
-
+    padding-top:0;
 }
-
-
 
 .shop-title{
     display:flex;
-    
+    padding-bottom:10px;
+    margin:0;
 }
 
 .coffee-description{
-    /* width:250px;
-    /* height:auto; */
-    /* background-color:#A8947C;
-    color:black;
-    position:fixed;
-    right: 50px;
-    bottom:50px; */
-    /* z-index:100; */
-    /* display:none; */
+  
     display:none;
     width:300px;
-    height:min-content;
+    height:auto;
     background-color:#A8947C;
     position:fixed;
     overflow:hidden;
-    right:50px;
+    right:20px;
     bottom:20px;
 }
 

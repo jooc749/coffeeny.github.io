@@ -90,13 +90,23 @@ function showCoffee() {
 
 
         // add event listener for when click on coffee container, image and address will display and disappear 
-        coffeeContainer.addEventListener("mouseover", function(){
+        // coffeeContainer.addEventListener("mouseover", function(){
+        //   coffeeDescription.style.display = "block";
+        // })
+
+        // coffeeContainer.addEventListener("mouseout", function(){
+        //   coffeeDescription.style.display = "none";
+        // })
+
+        //
+         coffeeContainer.addEventListener("mouseover", function(){
           coffeeDescription.style.display = "block";
         })
 
         coffeeContainer.addEventListener("mouseout", function(){
           coffeeDescription.style.display = "none";
         })
+
 
 
         // coffeeContainer.addEventListener("click", function pageRedirect(){
