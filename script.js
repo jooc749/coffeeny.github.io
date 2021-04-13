@@ -603,6 +603,31 @@ coffeeContainer.addEventListener("click", function createPage(){
             }
           })
 
+           //detail page for oslo (downtown)
+           coffeeContainer.addEventListener("click", function createPage(){
+            if(coffeeContainer.classList.contains("oslo")){
+                window.location.replace("detailpages/oslo.html");
+            }
+          })
+
+            //detail page for rebel (downtown)
+            coffeeContainer.addEventListener("click", function createPage(){
+              if(coffeeContainer.classList.contains("rebel")){
+                  window.location.replace("detailpages/rebel.html");
+              }
+            })
+  
+             //detail page for chai (downtown)
+             coffeeContainer.addEventListener("click", function createPage(){
+              if(coffeeContainer.classList.contains("chai")){
+                  window.location.replace("detailpages/chai.html");
+              }
+            })
+  
+
+
+
+
            //detail page for CLIPPER (bronx)
                    coffeeContainer.addEventListener("click", function createPage(){
                     if(coffeeContainer.classList.contains("clipper")){
