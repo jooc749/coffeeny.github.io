@@ -431,6 +431,154 @@ a{
     left:125px;
 }
 
+.bean{
+    position:absolute;
+    top:870px;
+    left:110px;
+}
+
+.whistle{
+    position:absolute;
+    top:890px;
+    left:110px;
+}
+
+.la_colombe{
+    position:absolute;
+    top:1250px;
+    left:110px;
+}
+
+.gasoline{
+    position:absolute;
+    top:1250px;
+    left:125px;
+}
+
+.saturdays{
+    position:absolute;
+    top:1310px;
+    left:125px;
+}
+
+.happy_bones{
+    position:absolute;
+    top:1300px;
+    left:135px;
+}
+
+.kettl{
+    position:absolute;
+    top:1230px;
+    left:145px;
+}
+
+.chai_spot{
+    position:absolute;
+    top:1250px;
+    left:165px;
+}
+
+.urban_backyard{
+    position:absolute;
+    top:1300px;
+    left:165px;
+}
+
+.yours{
+    position:absolute;
+    top:1330px;
+    left:170px;
+}
+
+.leon_dore{
+    position:absolute;
+    top:1350px;
+    left:185px;
+}
+
+.everyman{
+    position:absolute;
+    top:750px;
+    left:160px;
+}
+
+.coffee_project_east{
+    position:absolute;
+    top:1050px;
+    left:160px;
+}
+
+.lazy_llama{
+    position:absolute;
+    top:1190px;
+    left:160px;
+}
+
+.elsewhere{
+    position:absolute;
+    top:1000px;
+    left:180px;
+}
+
+.seveneightseven{
+    position:absolute;
+    top:980px;
+    left:180px;
+}
+
+.ludlow{
+    position:absolute;
+    top:1250px;
+    left:210px;
+}
+
+.grumpy{
+    position:absolute;
+    top:1270px;
+    left:220px;
+}
+
+.waypoint{
+    position:absolute;
+    top:1300px;
+    left:220px;
+}
+
+.dreamers{
+    position:absolute;
+    top:1330px;
+    left:230px;
+}
+
+.velvette{
+    position:absolute;
+    top:1330px;
+    left:260px;
+}
+
+.patoro{
+    position:absolute;
+    top:1400px;
+    left:220px;
+}
+
+.downtown_coffee{
+    position:absolute;
+    top:1440px;
+    left:250px;
+}
+
+.mudpark{
+position:absolute;    top:1370px;
+    left:250px;
+}
+
+.ninth_street{
+    position:absolute;
+    top:910px;
+    left:150px;
+}
 
 @media only screen and (min-width:800px){
     body {
