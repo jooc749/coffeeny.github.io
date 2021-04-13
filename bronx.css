@@ -520,23 +520,14 @@ font-size:1.5rem;
 }
 
 .coffee-description{
-    /* width:250px;
-    /* height:auto; */
-    /* background-color:#A8947C;
-    color:black;
-    position:fixed;
-    right: 50px;
-    bottom:50px; */
-    /* z-index:100; */
-    /* display:none; */
     display:none;
-    width:max-content;
-    height:auto;
+    width:300px;
+    height:min-content;
     background-color:#A8947C;
-    position:absolute;
-    right:100px;
+    position:fixed;
+    overflow:hidden;
+    right:50px;
     bottom:20px;
-    
 }
     
     a{

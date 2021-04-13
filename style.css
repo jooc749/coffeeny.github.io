@@ -23,7 +23,7 @@ h2{
     display:none;
 }
 
-.StIsland, .bronx,.uptown, .midtown, .downtown, .brooklyn{
+.stisland, .bronx,.uptown, .midtown, .downtown, .brooklyn{
     display:inline-block;
     font-size:1.5rem;
     padding:10px;
