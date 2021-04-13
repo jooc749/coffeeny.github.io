@@ -604,7 +604,7 @@ font-size:1.5rem;
    .subnav-content{
        display:none;
        position:fixed;
-        left:-220px;
+        left:-240px;
        top:370px;
        height:120px;
        z-index:1;
