@@ -11,6 +11,10 @@ body {
     padding:5px;
 }
 
+.locationnavbar{
+    display:none;
+}
+
 .yaxis{
     width:1px;
     background:bisque;
@@ -35,9 +39,6 @@ h2{
     display:none;
 }
 
-.locationnavbar{
-    display:none;
-}
 
 
 /* .uptown2, .midtown2, .downtown2, .brooklyn2{
@@ -261,13 +262,23 @@ font-size:1.5rem;
 .locationnavbar{
     overflow:hidden;
     background-color:pink;
-    display:block;
+    display:none;
 }
 
 .subnav{
     float:left;
     overflow:hidden;
 }
+
+
+.navarrow img{
+    width:10%;
+    position:fixed;
+   bottom:20px;
+   right:20px;
+}
+
+
 
 .subnavbtn{
     position:fixed;
@@ -332,6 +343,9 @@ font-size:1.5rem;
         
     }
     
+    .navarrow{
+        display:none;
+    }
     h2{
         font-weight:normal;
         padding:30px;

@@ -338,7 +338,16 @@ a{
     
 }
 
+.locationnavbar{
+    display:none;
+}
 
+.navarrow img{
+    width:10%;
+    position:fixed;
+   bottom:20px;
+   right:20px;
+}
 
 .StIsland1{
     margin-left:20px;
@@ -359,6 +368,10 @@ a{
     #location{
         text-align:right;
         
+    }
+
+    .navarrow{
+        display:none;
     }
     
     h2{
@@ -452,7 +465,12 @@ a{
         font-size:1rem;
     }
     
-    
+    .navarrow img{
+    width:10%;
+    position:fixed;
+   bottom:20px;
+   right:20px;
+}
     
     .filter {
         position:sticky;

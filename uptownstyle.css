@@ -382,7 +382,16 @@ a{
     display:none;
 }
 
+.navarrow img{
+    width:10%;
+    position:fixed;
+   bottom:20px;
+   right:20px;
+}
 
+.locationnavbar{
+    display:none;
+}
 
 
 
@@ -396,6 +405,10 @@ a{
         color:bisque;
         background:rgb(12, 12, 12);
         padding:5px;
+    }
+
+    .navarrow{
+        display:none;
     }
     
     #location{
