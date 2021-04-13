@@ -645,14 +645,17 @@ position:absolute;    top:1370px;
     }
   
 
-.store-image{
-    display:inline;
-    /* width:100%; */
-    width:120%;
-    height:auto;
- 
+    .store-image {
+        display:none;
+    }
+.store-image.active{
+    display:flex;
+    width:70%;
+    position:relative;
 
-    
+    z-index:100;
+    /* margin-top:150px; */
+  
 }
 
 
