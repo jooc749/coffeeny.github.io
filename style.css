@@ -455,6 +455,7 @@ p{
     overflow-x:hidden;
     transition:0.5s;
     text-align:right;
+    cursor: pointer;
 }
 
 .sidebar a {
