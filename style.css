@@ -31,9 +31,7 @@ h2{
     /* width:100%; */
 }
 
-/* .group2 {
-    display:block;
-} */
+
 
 h3{
    padding:30px;
@@ -326,12 +324,14 @@ h3{
 }
 
 .store-image{
-    width:30%;
-    display:inline;
+    width:80%;
+    display:inline-block;
     padding:30px;
-    position:absolute;
+    position:relative;
     bottom:0;
-    right:0;
+    left:0;
+    vertical-align: top;
+    
 }
 
 
@@ -339,6 +339,7 @@ h3{
 .address-location{
  display:flex;
  font-size:0.9rem;
+
 }
 
 
@@ -359,12 +360,13 @@ h3{
     /* z-index:100; */
     /* display:none; */
     display:none;
-    width:max-content;
-    height:auto;
+    width:300px;
+    height:min-content;
     background-color:#A8947C;
-    position:relative;
-    margin-top:10px;
+    position:fixed;
     
+    right:50px;
+    bottom:20px;
 }
 
 .yaxis{
