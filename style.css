@@ -321,7 +321,9 @@ h3{
 
 
 
-
+.category{
+    cursor: pointer;
+}
 
 .store-image{
     width:30%;
