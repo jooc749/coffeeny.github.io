@@ -40,12 +40,12 @@ h2{
 }
 
 
-.uptown2, .midtown2, .downtown2, .brooklyn2{
+/* .uptown2, .midtown2, .downtown2, .brooklyn2{
     display:inline-block;
     font-size:1rem;
     padding:10px;
 
-}
+} */
 
 h1{
     font-size:1rem;
@@ -104,7 +104,7 @@ h3{
     display:block;
     position:absolute;
     margin-left:50px;
-    margin-top:10px;
+    margin-top:20px;
     margin-right:5px;
   
 }
@@ -230,7 +230,7 @@ button{
 
 .location{
     text-align:right;
-    display:flex;
+    display:none;
     position:fixed;
     bottom:20px;
     right:10px;
@@ -251,6 +251,65 @@ h1{
 font-weight:bolder;
 font-size:1.5rem;
 }
+
+.uptown1, .midtown1, .downtown1, .brooklyn1, .bronx1,.StIsland1{
+    display:inline-block;
+    font-size:1rem;
+    padding:15px;
+}
+
+.locationnavbar{
+    overflow:hidden;
+    background-color:pink;
+    display:block;
+}
+
+.subnav{
+    float:left;
+    overflow:hidden;
+}
+
+.subnavbtn{
+    position:fixed;
+    left:10px;
+    top:85px;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:rgb(75, 52, 44);
+    z-index:100;
+    border-style:0px solid transparent;
+}
+
+.subnav .subnavbtn{
+    margin:0;
+    transform:rotate(90deg);
+}
+
+.navbar a, .subnav-content{
+    background:rgb(12, 12, 12);
+}
+
+.StIsland1{
+    margin-left:20px;
+}
+
+.bronx1{
+    margin-right:20px;
+}
+.subnav-content{
+    display:none;
+    position:fixed;
+     left:-270px;
+    top:390px;
+    height:80px;
+
+    z-index:1;
+    transform:rotate(-90deg);
+    
+}
+
+
 
 
 
