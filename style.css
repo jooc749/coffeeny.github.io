@@ -321,14 +321,15 @@ h3{
 
 
 
-.store-image{
-    display:inline;
-    /* width:100%; */
-    width:120%;
-    height:auto;
- 
 
-    
+
+.store-image{
+    width:30%;
+    display:inline;
+    padding:30px;
+    position:absolute;
+    bottom:0;
+    right:0;
 }
 
 
@@ -514,13 +515,7 @@ button{
 }
 
 
-.store-image{
-    width:30%;
-    padding:30px;
-    position:absolute;
-    top:0;
-    right:0;
-}
+
 
 .location{
     text-align:right;
