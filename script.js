@@ -440,6 +440,169 @@ coffeeContainer.addEventListener("click", function createPage(){
             }
           })
 
+          //detail page for MAMAN  (downtown)
+          coffeeContainer.addEventListener("click", function createPage(){
+            if(coffeeContainer.classList.contains("maman")){
+                window.location.replace("detailpages/maman.html");
+            }
+          })
+
+          //detail page for coffee project west  (downtown)
+          coffeeContainer.addEventListener("click", function createPage(){
+            if(coffeeContainer.classList.contains("coffee_project_east")){
+                window.location.replace("detailpages/cpnyeast.html");
+            }
+          })
+
+            //detail page for coffee project east  (downtown)
+            coffeeContainer.addEventListener("click", function createPage(){
+              if(coffeeContainer.classList.contains("coffee_project_west")){
+                  window.location.replace("detailpages/cpnywest.html");
+              }
+            })
+
+             //detail page for elsewhere (downtown)
+             coffeeContainer.addEventListener("click", function createPage(){
+              if(coffeeContainer.classList.contains("elsewhere")){
+                  window.location.replace("detailpages/elsewhere.html");
+              }
+            })
+
+              //detail page for gasoline (downtown)
+              coffeeContainer.addEventListener("click", function createPage(){
+                if(coffeeContainer.classList.contains("gasoline")){
+                    window.location.replace("detailpages/gasoline.html");
+                }
+              })
+
+                //detail page for saturdays (downtown)
+             coffeeContainer.addEventListener("click", function createPage(){
+              if(coffeeContainer.classList.contains("saturdays")){
+                  window.location.replace("detailpages/saturdays.html");
+              }
+            })
+
+              //detail page for leon dore (downtown)
+              coffeeContainer.addEventListener("click", function createPage(){
+                if(coffeeContainer.classList.contains("leon_dore")){
+                    window.location.replace("detailpages/leondore.html");
+                }
+              })
+
+                //detail page for ninth st (downtown)
+             coffeeContainer.addEventListener("click", function createPage(){
+              if(coffeeContainer.classList.contains("ninth_street")){
+                  window.location.replace("detailpages/ninth.html");
+              }
+            })
+
+  //detail page for velvette (downtown)
+  coffeeContainer.addEventListener("click", function createPage(){
+    if(coffeeContainer.classList.contains("velvette")){
+        window.location.replace("detailpages/velvette.html");
+    }
+  })
+
+    //detail page for lazy llama (downtown)
+    coffeeContainer.addEventListener("click", function createPage(){
+      if(coffeeContainer.classList.contains("lazy_llama")){
+          window.location.replace("detailpages/lazyllama.html");
+      }
+    })
+
+
+      //detail page for downtown coffee (downtown)
+      coffeeContainer.addEventListener("click", function createPage(){
+        if(coffeeContainer.classList.contains("downtown_coffee")){
+            window.location.replace("detailpages/downtowncoffee.html");
+        }
+      })
+
+        //detail page for happy bones (downtown)
+        coffeeContainer.addEventListener("click", function createPage(){
+          if(coffeeContainer.classList.contains("happy_bones")){
+              window.location.replace("detailpages/happybones.html");
+          }
+        })
+
+          //detail page for black star (downtown)
+          coffeeContainer.addEventListener("click", function createPage(){
+            if(coffeeContainer.classList.contains("black_star")){
+                window.location.replace("detailpages/blackstar.html");
+            }
+          })
+
+            //detail page for kettl (downtown)
+            coffeeContainer.addEventListener("click", function createPage(){
+              if(coffeeContainer.classList.contains("kettl")){
+                  window.location.replace("detailpages/kettl.html");
+              }
+            })
+
+              //detail page for kobrick (downtown)
+              coffeeContainer.addEventListener("click", function createPage(){
+                if(coffeeContainer.classList.contains("kobrick")){
+                    window.location.replace("detailpages/kobrick.html");
+                }
+              })
+
+                //detail page for blue spoon (downtown)
+             coffeeContainer.addEventListener("click", function createPage(){
+              if(coffeeContainer.classList.contains("blue_spoon")){
+                  window.location.replace("detailpages/bluespoon.html");
+              }
+            })
+
+              //detail page for birch (downtown)
+              coffeeContainer.addEventListener("click", function createPage(){
+                if(coffeeContainer.classList.contains("birch")){
+                    window.location.replace("detailpages/birch.html");
+                }
+              })
+
+
+                //detail page for kam hing (downtown)
+             coffeeContainer.addEventListener("click", function createPage(){
+              if(coffeeContainer.classList.contains("kam_hing")){
+                  window.location.replace("detailpages/kamhing.html");
+              }
+            })
+
+  //detail page for whistle (downtown)
+  coffeeContainer.addEventListener("click", function createPage(){
+    if(coffeeContainer.classList.contains("whistle")){
+        window.location.replace("detailpages/whistle.html");
+    }
+  })
+          
+    //detail page for ole (downtown)
+    coffeeContainer.addEventListener("click", function createPage(){
+      if(coffeeContainer.classList.contains("ole")){
+          window.location.replace("detailpages/ole.html");
+      }
+    })
+
+      //detail page for merriweather (downtown)
+      coffeeContainer.addEventListener("click", function createPage(){
+        if(coffeeContainer.classList.contains("merriweather")){
+            window.location.replace("detailpages/merriweather.html");
+        }
+      })
+
+        //detail page for mudpark (downtown)
+        coffeeContainer.addEventListener("click", function createPage(){
+          if(coffeeContainer.classList.contains("mudpark")){
+              window.location.replace("detailpages/mudpark.html");
+          }
+        })
+
+          //detail page for starbucks (downtown)
+          coffeeContainer.addEventListener("click", function createPage(){
+            if(coffeeContainer.classList.contains("starbucks")){
+                window.location.replace("detailpages/starbucks.html");
+            }
+          })
+
            //detail page for CLIPPER (bronx)
                    coffeeContainer.addEventListener("click", function createPage(){
                     if(coffeeContainer.classList.contains("clipper")){
