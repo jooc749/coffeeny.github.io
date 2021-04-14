@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(#26cdeb,#ff392b    );
+    background-image:linear-gradient(#f5d473,#ff392b    );
     font-family: 'Gilda Display', serif;
 }
 
@@ -64,7 +64,7 @@ h2{
 .tags {
     display:inline-block;
     font-size:0.8rem;
-    width:80%;
+    width:100%;
 }
 
 .tag1, .tag2, .tag3{
@@ -95,7 +95,7 @@ a{
 
 @media only screen and (min-width:800px){
     body{
-        background-image:radial-gradient(#26cdeb,#ff392b    );
+        background-image:radial-gradient(#f5d473,#ff392b    );
         font-family: 'Gilda Display', serif;
     }
     
