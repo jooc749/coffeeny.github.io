@@ -540,7 +540,7 @@ font-size:1.5rem;
 .locationnavbar{
     overflow:hidden;
     background-color:pink;
-    display:n;
+    display:none;
 }
 
 .subnav{
