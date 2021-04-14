@@ -122,7 +122,7 @@ h3{
     font-size:0.8rem;
     position:absolute;
     margin-top:10px;
-    line-height:600%;
+    line-height:1700%;
 }
 
 p{
@@ -271,205 +271,196 @@ font-size:1.5rem;
 
 .upright{
     position:absolute;
-    top:5px;
-    left:350px;
+    top:50px;
+    left:130px;
 }
 
 .qahwah{
     position:absolute;
-    top:60px;
-    left:400px;
+    top:100px;
+    left:150px;
 }
 
 .bakeri{
     position:absolute;
-    top:100px;
-    left:330px;
+    top:160px;
+    left:110px;
 }
 
 .copper_mug{
     position:absolute;
-    top:140px;
-    left:330px;
+    top:200px;
+    left:110px;
 }
 
 .partners{
     position:absolute;
-    top:140px;
-    left:360px;
+    top:220px;
+    left:130px;
 }
 
 .devocion{
     position:absolute;
-    top:180px;
-    left:300px;
+    top:240px;
+    left:100px;
 }
 
 .weekends{
     position:absolute;
-    top:180px;
-    left:360px;
+    top:240px;
+    left:145px;
 }
 
 .ppl{
     position:absolute;
-    top:210px;
-    left:450px;
+    top:260px;
+    left:170px;
 }
 
 .eleva{
     position: absolute;
-    top:180px;
-    left:550px;
+    top:240px;
+    left:250px;
 }
 
 .oxalis{
     position: absolute;
-    top:250px;
-    left:360px;
+    top:310px;
+    left:145px;
 }
 
 .out_of_office{
     position:absolute;
-    top:280px;
-    left:450px;
+    top:350px;
+    left:160px;
 }
 
 .variety{
     position:absolute;
-    top:260px;
-    left:800px;
+    top:330px;
+    left:270px;
 }
 
 .hvrminn{
     position:absolute;
-    top:310px;
-    left:300px;
+    top:480px;
+    left:100px;
 }
 
 .beepublic{
     position:absolute;
-    top:320px;
-    left:280px;
+    top:500px;
+    left:80px;
 }
 
 .feed{
     position:absolute;
-    top:350px;
-    left:250px;
+    top:520px;
+    left:50px;
 }
 
 .parlor{
     position:absolute;
-    top:330px;
-    left:470px;
+    top:480px;
+    left:180px;
 }
 
 .brooklyn_roasting_two{
-    position:absolute;
-    top:350px;
-    left:500px;
-}
-
-.brooklyn_roasting_one{
-    position:absolute;
-    top:340px;
-    left:300px;
-}
-
-.bluestone{
-    position:absolute;
-    top:350px;
-    left:280px;
-}
-
-.gregorys{
-    position:absolute;
-    top:370px;
-    left:270px;
-}
-
-.vineapple{
-    position:absolute;
-    top:350px;
-    left:330px;
-}
-
-.joe{
-    position:absolute;
-    top:380px;
-    left:300px;
-}
-
-.kitten{
-    position:absolute;
-    top:370px;
-    left:600px;
-}
-
-.kaigo{
-    position:absolute;
-    top:380px;
-    left:350px;
-}
-
-.white_noise{
-    position:absolute;
-    top:400px;
-    left:370px;
-}
-
-.about{
-    position:absolute;
-    top:420px;
-    left:350px;
-}
-
-.absolute{
-    position:absolute;
-    top:420px;
-    left:390px;
-}
-
-.little_sweet{
-    position:absolute;
-    top:410px;
-    left:450px;;
-}
-
-.bittersweet{
-    position: absolute;
-    top:380px;
-    left:480px;
-
-}
-
-.volkan{
-    position:absolute;
-    top:440px;
-    left:390px;
-}
-
-.black_flamingo{
     position:absolute;
     top:500px;
     left:200px;
 }
 
+.brooklyn_roasting_one{
+    position:absolute;
+    top:530px;
+    left:100px;
+}
+
+.bluestone{
+    position:absolute;
+    top:550px;
+    left:80px;
+}
+
+.gregorys{
+    position:absolute;
+    top:570px;
+    left:50px;
+}
+
+.vineapple{
+    position:absolute;
+    top:570px;
+    left:80px;
+}
+
+.joe{
+    position:absolute;
+    top:570px;
+    left:110px;
+}
+
+.kitten{
+    position:absolute;
+    top:520px;
+    left:250px;
+}
+
+.kaigo{
+    position:absolute;
+    top:610px;
+    left:120px;
+}
+
+.white_noise{
+    position:absolute;
+    top:630px;
+    left:130px;
+}
+
+.about{
+    position:absolute;
+    top:650px;
+    left:110px;
+}
+
+.absolute{
+    position:absolute;
+    top:650px;
+    left:150px;
+}
+
+.little_sweet{
+    position:absolute;
+    top:630px;
+    left:170px;;
+}
+
+.bittersweet{
+    position: absolute;
+    top:610px;
+    left:220px;
+
+}
+
+.volkan{
+    position:absolute;
+    top:730px;
+    left:150px;
+}
+
+.black_flamingo{
+    position:absolute;
+    top:870px;
+    left:50px;
+}
 
 .hungry_ghost{
     position:absolute;
-    top:400px;
-    left:480px;
-}
-
-
-
-
-
-
-
-
+    top:650px;
+    left:220px;
+} 
 
 @media only screen and (min-width:800px){
     body {
