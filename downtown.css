@@ -919,48 +919,288 @@ position:absolute;    top:1370px;
 
 
 
-.rex{
+   .shiki{
     position:absolute;
-    top:60px;
-    left:70px;
+    top:1400px;
+    left:350px;
 }
 
-.zibetto{
+.now_or_never{
     position:absolute;
-    top:90px;
-    left:300px;
+    top:1520px;
+    left:100px;
 }
 
-.mamas{
+.ralphs{
     position:absolute;
-    top:220px;
-    left:400px;
+    top:500px;
+    left:350px;
 }
 
-.bibble{
+.ole{
     position:absolute;
-    top:320px;
-    left:210px;
+    top:630px;
+    left:380px;
 }
 
-.for_five{
+.coffee_project_west{
     position:absolute;
-    top:530px;
-    left:300px;
+    top:620px;
+    left:200px;
 }
 
-.culture{
+.stumptown{
+    position:absolute;
+    top:1100px;
+    left:200px;
+}
+
+.saltwater{
+    position:absolute;
+    top:1120px;
+    left:200px;
+}
+
+.kobrick{
     position:absolute;
     top:900px;
-    left:280px;
+    left:30px;
 }
 
-.old_country{
+.rebel{
     position:absolute;
-    top:1050px;
-    left:70px;
+    top:950px;
+    left:30px;
 }
 
+.black_star{
+    position:absolute;
+    top:400px;
+    left:550px;
+}
 
+.blackstone{
+    position:absolute;
+    top:1300px;
+    left:30px;
+}
+
+.oslo{
+    position:absolute;
+    top:1020px;
+    left:30px;
+}
+
+.maman{
+    position:absolute;
+    top:1380px;
+    left:30px;
+}
+
+.merriweather{
+    position:absolute;
+    top:1240px;
+    left:30px;}
+
+.laughing_man{
+    position:absolute;
+    top:1620px;
+    left:60px;}
+
+
+.blue_bottle{
+    position:absolute;
+    top:1660px;
+    left:150px;
+}
+
+.blue_spoon{
+    position:absolute;
+    top:1620px;
+    left:300px;
+}
+
+.amazon{
+    position:absolute;
+    top:1700px;
+    left:230px;
+}
+
+.kam_hing{
+    position:absolute;
+    top:1450px;
+    left:410px;
+}
+
+.birch{
+    position:absolute;
+    top:1600px;
+    left:430px;
+}
+
+.starbucks{
+    position:absolute;
+    top:1600px;
+    left:550px;
+}
+
+.bean{
+    position:absolute;
+    top:1020px;
+    left:370px;
+}
+
+.whistle{
+    position:absolute;
+    top:1100px;
+    left:370px;
+}
+
+.la_colombe{
+    position:absolute;
+    top:1300px;
+    left:380px;
+}
+
+.gasoline{
+    position:absolute;
+    top:1400px;
+    left:430px;
+}
+
+.saturdays{
+    position:absolute;
+    top:1470px;
+    left:410px;
+}
+
+.happy_bones{
+    position:absolute;
+    top:1520px;
+    left:410px;
+}
+
+.kettl{
+    position:absolute;
+    top:1260px;
+    left:420px;
+}
+
+.chai_spot{
+    position:absolute;
+    top:1480px;
+    left:470px;
+}
+
+.urban_backyard{
+    position:absolute;
+    top:1480px;
+    left:350px;
+}
+
+.yours{
+    position:absolute;
+    top:1430px;
+    left:450px;
+}
+
+.leon_dore{
+    position:absolute;
+    top:1520px;
+    left:470px;
+}
+
+.everyman{
+    position:absolute;
+    top:900px;
+    left:380px;
+}
+
+.coffee_project_east{
+    position:absolute;
+    top:1180px;
+    left:440px;
+}
+
+.kona{
+    position:absolute;
+    top:1260px;
+    left:440px;
+}
+
+.lazy_llama{
+    position:absolute;
+    top:1320px;
+    left:600px;
+}
+
+.elsewhere{
+    position:absolute;
+    top:1100px;
+    left:470px;
+}
+
+.seveneightseven{
+    position:absolute;
+    top:1230px;
+    left:550px;
+}
+
+.ludlow{
+    position:absolute;
+    top:1410px;
+    left:580px;
+}
+
+.grumpy{
+    position:absolute;
+    top:1480px;
+    left:610px;
+}
+
+.waypoint{
+    position:absolute;
+    top:1500px;
+    left:630px;
+}
+.locationnavbar{
+    display:none;
+}
+
+.dreamers{
+    position:absolute;
+    top:1550px;
+    left:550px;
+}
+
+.velvette{
+    position:absolute;
+    top:1410px;
+    left:630px;
+}
+
+.patoro{
+    position:absolute;
+    top:1620px;
+    left:700px;
+}
+
+.downtown_coffee{
+    position:absolute;
+    top:1550px;
+    left:650px;
+}
+
+.mudpark{
+position:absolute;    
+top:1430px;
+left:520px;
+}
+
+.ninth_street{
+    position:absolute;
+    top:1080px;
+    left:580px;
+}
 
 }
