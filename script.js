@@ -618,10 +618,6 @@ coffeeContainer.addEventListener("click", function createPage(){
                   window.location.replace("detailpages/chai.html");
               }
             })
-  
-
-
-
 
            //detail page for CLIPPER (bronx)
                    coffeeContainer.addEventListener("click", function createPage(){
@@ -630,13 +626,232 @@ coffeeContainer.addEventListener("click", function createPage(){
                     }
                   })
 
-                 
+             //detail page for KAIGO (bronx)
+                   coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("kaigo")){
+                        window.location.replace("detailpages/kaigo.html");
+                    }
+                  })    
+
+                  //detail page for BRC 1 (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("brooklyn_roasting_one")){
+                        window.location.replace("detailpages/brooklynroastingone.html");
+                    }
+                  })
+
+                  //detail page for OXALIS (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("oxalis")){
+                        window.location.replace("detailpages/oxalis.html");
+                    }
+                  })
+
+                  //detail page for WEEKENDS (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("weekends")){
+                        window.location.replace("detailpages/weekends.html");
+                    }
+                  })
+       
+                  //detail page for VINEAPPLE (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("vineapple")){
+                        window.location.replace("detailpages/vineapple.html");
+                    }
+                  })
+
+                  //detail page for BAKERI (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("bakeri")){
+                        window.location.replace("detailpages/bakeri.html");
+                    }
+                  })
+       
+                  //detail page for DEVOCION (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("devocion")){
+                        window.location.replace("detailpages/devocion.html");
+                    }
+                  })
        
        
+                  //detail page for BRC 2 (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("brooklyn_roasting_two")){
+                        window.location.replace("detailpages/brooklynroastingtwo.html");
+                    }
+                  })
        
+                  //detail page for QAHWAH (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("qahwah")){
+                        window.location.replace("detailpages/qahwah.html");
+                    }
+                  })
+
+                  //detail page for PARLOR (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("parlor")){
+                        window.location.replace("detailpages/parlor.html");
+                    }
+                  })
+
+                  //detail page for BEEPUBLIC (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("beepublic")){
+                        window.location.replace("detailpages/beepublic.html");
+                    }
+                  })
+
+                  //detail page for BITTERSWEET (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("bittersweet")){
+                        window.location.replace("detailpages/bittersweet.html");
+                    }
+                  })
        
-       
-       
+                  //detail page for ABSOLUTE (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("absolute")){
+                        window.location.replace("detailpages/absolute.html");
+                    }
+                  })
+
+                  //detail page for PARTNERS (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("partners")){
+                        window.location.replace("detailpages/partners.html");
+                    }
+                  })
+
+                  //detail page for ABOUT (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("about")){
+                        window.location.replace("detailpages/about.html");
+                    }
+                  })
+
+                  //detail page for WHITE NOISE (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("white_noise")){
+                        window.location.replace("detailpages/whitenoise.html");
+                    }
+                  })
+
+                  //detail page for FEED (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("feed")){
+                        window.location.replace("detailpages/feed.html");
+                    }
+                  })
+
+                  //detail page for GREGORYS (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("gregorys")){
+                        window.location.replace("detailpages/gregorys.html");
+                    }
+                  })
+
+                  //detail page for BLACK FLAMINGO (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("black_flamingo")){
+                        window.location.replace("detailpages/blackflamingo.html");
+                    }
+                  })
+
+                  //detail page for BLUESTONE (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("bluestone")){
+                        window.location.replace("detailpages/bluestone.html");
+                    }
+                  })
+
+                  //detail page for PPL (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("ppl")){
+                        window.location.replace("detailpages/ppl.html");
+                    }
+                  })
+
+                  //detail page for VARIETY (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("variety")){
+                        window.location.replace("detailpages/variety.html");
+                    }
+                  })
+
+                  //detail page for VOLKAN (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("volkan")){
+                        window.location.replace("detailpages/volkan.html");
+                    }
+                  })
+
+                  //detail page for copper (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("copper_mug")){
+                        window.location.replace("detailpages/coppermug.html");
+                    }
+                  })
+
+                  //detail page for LITTLE SWEET (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("little_sweet")){
+                        window.location.replace("detailpages/littlesweer.html");
+                    }
+                  })
+
+                  //detail page for JOE (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("joe")){
+                        window.location.replace("detailpages/joe.html");
+                    }
+                  })
+
+                  //detail page for KITTEN (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("kitten")){
+                        window.location.replace("detailpages/kitten.html");
+                    }
+                  })
+
+                  //detail page for OUT OF OFFICE (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("out_of_office")){
+                        window.location.replace("detailpages/outofoffice.html");
+                    }
+                  })
+
+                  //detail page for HUNGRY GHOST (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("hungry_ghost")){
+                        window.location.replace("detailpages/hungryghost.html");
+                    }
+                  })
+
+                  //detail page for UPRIGHT (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("upright")){
+                        window.location.replace("detailpages/upright.html");
+                    }
+                  })
+
+                  //detail page for ELEVA (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("eleva")){
+                        window.location.replace("detailpages/eleva.html");
+                    }
+                  })
+
+                  //detail page for HVRMINN (bronx)
+                  coffeeContainer.addEventListener("click", function createPage(){
+                    if(coffeeContainer.classList.contains("hvrminn")){
+                        window.location.replace("detailpages/hvrminn.html");
+                    }
+                  })
+
+
         //get filter field from airtable 
         //loop through array and add each genre as a class to container 
         var categoryFilter = coffee.fields.filter;
