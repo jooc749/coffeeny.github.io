@@ -39,8 +39,6 @@ h2{
     display:none;
 }
 
-
-
 /* .uptown2, .midtown2, .downtown2, .brooklyn2{
     display:inline-block;
     font-size:1rem;
@@ -63,37 +61,8 @@ h3{
     width:35px;
     height:35px;
     border-radius:50%;
-    display:inline-block;
-    
+    display:inline-block;  
 }
-
-/* .store-image {
-   display:none;
-}
-
-.store-image.active{
-    display:block;
-  
-}
-
-.address-location {
-    display:none;
-    width:100%;
-}
-
-.address-location.active{
-    display:block;
-}
-
-.shop-title{
-    display:none;
-    width:100%;
-}
-
-.shop-title.active{
-    display:block;
- } */
-
 
 .yaxis{
     width:1px;
@@ -107,7 +76,6 @@ h3{
     margin-left:50px;
     margin-top:20px;
     margin-right:5px;
-  
 }
 
 .line {
@@ -127,23 +95,18 @@ p{
     margin-left:25%;
 }
 
-
 .filter {
     position:sticky;
     bottom:20px;
     text-align:right;
-
 }
 
 .innergroup {
     display:flex;
 }
 
-
 .title{
     display:inline-block;
- 
-
 }
 
 .filtermenu {
@@ -208,8 +171,6 @@ button{
     color:bisque;
 }
 
-
-
 /* .coffee-description{
     width:40%;
     background-color:#A8947C;
@@ -227,7 +188,6 @@ button{
     top:0;
     right:0;
 }
-
 
 .location{
     text-align:right;
@@ -278,8 +238,6 @@ font-size:1.5rem;
    right:20px;
 }
 
-
-
 .subnavbtn{
     position:fixed;
     left:10px;
@@ -308,6 +266,7 @@ font-size:1.5rem;
 .bronx1{
     margin-right:20px;
 }
+
 .subnav-content{
     display:none;
     position:fixed;
@@ -319,12 +278,6 @@ font-size:1.5rem;
     transform:rotate(-90deg);
     
 }
-
-
-
-
-
-
 
 .midtown, .brooklyn, .uptown, .stisland, .downtown{
     display:none;
@@ -340,12 +293,12 @@ font-size:1.5rem;
     
     #location{
         text-align:right;
-        
     }
     
     .navarrow{
         display:none;
     }
+
     h2{
         font-weight:normal;
         padding:30px;
@@ -362,15 +315,11 @@ font-size:1.5rem;
         display:none;
     }
     
-    
     h3{
        padding:30px;
        font-weight:bold;
     }
-    
-   
-   
-    
+
     .yaxis{
         width:1px;
         background:bisque;
@@ -394,7 +343,6 @@ font-size:1.5rem;
         left:-220px;
         top:350px; */
         position:relative;
-       
         top:250px;}
 
     .eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0, .seventyfive0, .eighty0, .seventy0, .sixtyfive0, .sixty0{
@@ -491,35 +439,26 @@ font-size:1.5rem;
         font-size:1rem;
         position:fixed;
         cursor:pointer;
-    }
-    
-    
+    } 
 
-.store-image{
+    .store-image{
     display:inline;
     /* width:100%; */
     width:120%;
     height:auto;
- 
+    }
 
-    
-}
+    .address-location{
+     display:flex;
+     font-size:0.9rem;
+    }
 
-
-
-.address-location{
- display:flex;
- font-size:0.9rem;
-}
-
-
-
-.shop-title{
+    .shop-title{
     display:flex;
   
-}
+        }
 
-.coffee-description{
+   .coffee-description{
     display:none;
     width:300px;
     height:min-content;
@@ -528,7 +467,7 @@ font-size:1.5rem;
 
     right:50px;
     bottom:20px;
-}
+    }
     
     a{
         text-decoration:none;
@@ -558,7 +497,6 @@ font-size:1.5rem;
     .midtown, .brooklyn, .downtown, .uptown, .stisland{
         display:none;
     }
-
     
    .locationnavbar{
        overflow:hidden;
@@ -580,7 +518,6 @@ font-size:1.5rem;
        border-radius:50%;
        background:rgb(75, 52, 44);
        z-index:100;
-       
    }
 
    .subnav .subnavbtn{
@@ -609,14 +546,9 @@ font-size:1.5rem;
        padding-right:20px;
    }
 
-
    .subnav:hover .subnav-content{
        display:block;
-        
         transform:rotate(-90deg);
-    
-        
-     
    }
 
 }
