@@ -263,6 +263,7 @@ body {
     padding:5px;
 }
 
+
 #location{
     text-align:right;
     
@@ -415,6 +416,16 @@ p{
 .title{
     display:inline-block;
 }
+
+.instruction{
+    display:inline-block;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    font-size:0.9rem;
+}
+
 
 .filtermenu {
     display:inline-block;
