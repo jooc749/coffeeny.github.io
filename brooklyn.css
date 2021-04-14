@@ -265,9 +265,211 @@ font-size:1.5rem;
    right:20px;
 }
 
-.midtown, .StIsland, .uptown, .bronx, .downtown{
+.midtown, .stisland, .uptown, .bronx, .downtown{
     display:none;
 }
+
+.upright{
+    position:absolute;
+    top:5px;
+    left:350px;
+}
+
+.qahwah{
+    position:absolute;
+    top:60px;
+    left:400px;
+}
+
+.bakeri{
+    position:absolute;
+    top:100px;
+    left:330px;
+}
+
+.copper_mug{
+    position:absolute;
+    top:140px;
+    left:330px;
+}
+
+.partners{
+    position:absolute;
+    top:140px;
+    left:360px;
+}
+
+.devocion{
+    position:absolute;
+    top:180px;
+    left:300px;
+}
+
+.weekends{
+    position:absolute;
+    top:180px;
+    left:360px;
+}
+
+.ppl{
+    position:absolute;
+    top:210px;
+    left:450px;
+}
+
+.eleva{
+    position: absolute;
+    top:180px;
+    left:550px;
+}
+
+.oxalis{
+    position: absolute;
+    top:250px;
+    left:360px;
+}
+
+.out_of_office{
+    position:absolute;
+    top:280px;
+    left:450px;
+}
+
+.variety{
+    position:absolute;
+    top:260px;
+    left:800px;
+}
+
+.hvrminn{
+    position:absolute;
+    top:310px;
+    left:300px;
+}
+
+.beepublic{
+    position:absolute;
+    top:320px;
+    left:280px;
+}
+
+.feed{
+    position:absolute;
+    top:350px;
+    left:250px;
+}
+
+.parlor{
+    position:absolute;
+    top:330px;
+    left:470px;
+}
+
+.brooklyn_roasting_two{
+    position:absolute;
+    top:350px;
+    left:500px;
+}
+
+.brooklyn_roasting_one{
+    position:absolute;
+    top:340px;
+    left:300px;
+}
+
+.bluestone{
+    position:absolute;
+    top:350px;
+    left:280px;
+}
+
+.gregorys{
+    position:absolute;
+    top:370px;
+    left:270px;
+}
+
+.vineapple{
+    position:absolute;
+    top:350px;
+    left:330px;
+}
+
+.joe{
+    position:absolute;
+    top:380px;
+    left:300px;
+}
+
+.kitten{
+    position:absolute;
+    top:370px;
+    left:600px;
+}
+
+.kaigo{
+    position:absolute;
+    top:380px;
+    left:350px;
+}
+
+.white_noise{
+    position:absolute;
+    top:400px;
+    left:370px;
+}
+
+.about{
+    position:absolute;
+    top:420px;
+    left:350px;
+}
+
+.absolute{
+    position:absolute;
+    top:420px;
+    left:390px;
+}
+
+.little_sweet{
+    position:absolute;
+    top:410px;
+    left:450px;;
+}
+
+.bittersweet{
+    position: absolute;
+    top:380px;
+    left:480px;
+
+}
+
+.volkan{
+    position:absolute;
+    top:440px;
+    left:390px;
+}
+
+.black_flamingo{
+    position:absolute;
+    top:500px;
+    left:200px;
+}
+
+
+.hungry_ghost{
+    position:absolute;
+    top:400px;
+    left:480px;
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width:800px){
     body {
@@ -515,7 +717,7 @@ font-size:1.5rem;
         font-size:2rem;
     }
 
-    .midtown, .StIsland, .downtown, .uptown, .bronx{
+    .midtown, .stisland, .downtown, .uptown, .bronx{
         display:none;
     }
 
@@ -760,6 +962,12 @@ font-size:1.5rem;
        position:absolute;
        top:500px;
        left:200px;
+   }
+
+   .hungry_ghost{
+       position:absolute;
+       top:400px;
+       left:480px;
    }
 
 }
