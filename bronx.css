@@ -11,6 +11,7 @@ body {
     padding:5px;
 }
 
+
 .store-image{
     width:80%;
     display:inline-block;
@@ -44,7 +45,6 @@ body {
     right:20px;
     bottom:20px;
 }
-
 .uptown_hide, .brooklyn_hide, .stisland_hide{
     display:none;
 }
@@ -81,13 +81,6 @@ div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
 
 .bibble{
     display:none;
-}
-p{
-    display:none;
-}
-
-h1{
-    font-size:2rem;
 }
 
 .double_dutch{

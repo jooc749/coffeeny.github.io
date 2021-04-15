@@ -181,27 +181,75 @@ button{
     color:bisque;
 }
 
+.store-image{
+    width:80%;
+    display:inline-block;
+    position:relative;
+    bottom:0;
+    
+}
 
+.address-location{
+ display:flex;
+ font-size:0.9rem;
+    padding-top:0;
+    color:black;
+}
+
+.shop-title{
+    display:flex;
+    padding-bottom:10px;
+    margin:0;
+    color:black;
+}
 
 .coffee-description{
-    width:40%;
+  
+    display:none;
+    width:300px;
+    height:auto;
     background-color:#A8947C;
-    color:black;
-    position:absolute;
-    margin-left: 100px;
-    z-index:100;
-    /* margin-top:150px; */
-}
-
-.store-image{
-    width:30%;
-    padding:30px;
-    position:absolute;
-    top:0;
-    right:0;
+    position:fixed;
+    overflow:hidden;
+    right:20px;
+    bottom:20px;
 }
 
 
+.old_country{
+    display:none;
+}
+
+.mamas{
+    display:none;
+}
+/*for some reason, when display none for culture espresso, mouseover won't work so I've placed it off the page manually*/
+div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
+    position:fixed;
+    top:-500px;
+    left:-500px;
+}  
+
+ .zibetto{
+    display:none;
+} 
+  
+.rex{
+    display:none;
+}
+
+.for_five{
+    display:none;
+}
+
+.bibble{
+    display:none;
+}
+
+ 
+.downtown_hide, .brooklyn_hide, .stisland_hide, .bronx_hide{
+    display:none;
+}
 /* .location{ */
     /* text-align:right;
     display:flex;
