@@ -31,20 +31,6 @@ h2{
     font-size:1rem;
 }
 
-/* .midtown, .brooklyn, .downtown, .bronx, .stisland{
-    display:none;
-} */
-
-.midtown{
-    display:none;
-}
-
-/* .uptown2, .midtown2, .downtown2, .brooklyn2{
-    display:inline-block;
-    font-size:1rem;
-    padding:10px;
-
-} */
 
 h1{
     font-size:1rem;
@@ -279,9 +265,9 @@ font-size:1.5rem;
     
 }
 
-.midtown, .brooklyn, .uptown, .stisland, .downtown{
+/* .midtown, .brooklyn, .uptown, .stisland, .downtown{
     display:none;
-}
+} */
 
 @media only screen and (min-width:800px){
     body {
@@ -442,50 +428,80 @@ font-size:1.5rem;
     } 
 
     .store-image{
-    display:inline;
-    /* width:100%; */
-    width:120%;
-    height:auto;
+        width:80%;
+        display:inline-block;
+        position:relative;
+        bottom:0;
+        
     }
-
+    
     .address-location{
      display:flex;
      font-size:0.9rem;
-    }
-
-    .shop-title{
-    display:flex;
-  
-        }
-
-   .coffee-description{
-    display:none;
-    width:300px;
-    height:min-content;
-    background-color:#A8947C;
-    position:fixed;
-
-    right:50px;
-    bottom:20px;
+        padding-top:0;
+        color:black;
     }
     
+    .shop-title{
+        display:flex;
+        padding-bottom:10px;
+        margin:0;
+        color:black;
+    }
+    
+    .coffee-description{
+      
+        display:none;
+        width:300px;
+        height:auto;
+        background-color:#A8947C;
+        position:fixed;
+        overflow:hidden;
+        right:20px;
+        bottom:20px;
+    }
     a{
         text-decoration:none;
         color:bisque;
     }
     
-    .coffee-container.uptown.double_dutch{
-        position:absolute;
-        top:580px;
-        left:250px;
+    .uptown_hide, .brooklyn_hide, .stisland_hide{
+        display:none;
     }
 
-    .coffee-container.midtown.culture.more_than_coffee{
-        position:absolute;
-        top:380px;
-        left:400px;
+    .downtown_hide{
+        display:none;
     }
     
+    .old_country{
+        display:none;
+    }
+    
+    .mamas{
+        display:none;
+    }
+    /*for some reason, when display none for culture espresso, mouseover won't work so I've placed it off the page manually*/
+    div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
+        position:fixed;
+        top:-500px;
+        left:-500px;
+    }  
+    
+     .zibetto{
+        display:none;
+    } 
+      
+    .rex{
+        display:none;
+    }
+    
+    .for_five{
+        display:none;
+    }
+    
+    .bibble{
+        display:none;
+    }
     p{
         display:none;
     }
@@ -494,9 +510,13 @@ font-size:1.5rem;
         font-size:2rem;
     }
 
-    .midtown, .brooklyn, .downtown, .uptown, .stisland{
+    .double_dutch{
         display:none;
     }
+/* 
+    .midtown, .brooklyn, .downtown, .uptown, .stisland{
+        display:none;
+    } */
     
    .locationnavbar{
        overflow:hidden;

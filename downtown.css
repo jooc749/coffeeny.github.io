@@ -1104,42 +1104,39 @@ left:550px;
     }
     
     
-
-.store-image{
-    display:inline;
-    /* width:100%; */
-    width:120%;
-    height:auto;
- 
-
+    .store-image{
+        width:80%;
+        display:inline-block;
+        position:relative;
+        bottom:0;
+        
+    }
     
-}
-
-
-
-.address-location{
- display:flex;
- font-size:0.9rem;
-}
-
-
-
-.shop-title{
-    display:flex;
-    padding-bottom:10px;
-    margin:0;
-}
-
-.coffee-description{
-    display:none;
-    width:300px;
-    height:min-content;
-    background-color:#A8947C;
-    position:fixed;
-    overflow:hidden;
-    right:50px;
-    bottom:20px;
-}
+    .address-location{
+     display:flex;
+     font-size:0.9rem;
+        padding-top:0;
+        color:black;
+    }
+    
+    .shop-title{
+        display:flex;
+        padding-bottom:10px;
+        margin:0;
+        color:black;
+    }
+    
+    .coffee-description{
+      
+        display:none;
+        width:300px;
+        height:auto;
+        background-color:#A8947C;
+        position:fixed;
+        overflow:hidden;
+        right:20px;
+        bottom:20px;
+    }
     
     a{
         text-decoration:none;
