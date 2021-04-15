@@ -1,7 +1,7 @@
 .eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0, .eighty0, .seventyfive0, .seventy0, .sixtyfive0, .sixty0, .blank, .twelve, .eleven, .nine, .eight, .seven, .six, .five, .four, .three, .two, .one, .houston, .prince, .canal, .worth, .chambers, .Barclay, .Battery{
     display:list-item;
     list-style:none;
-    font-size:1rem;
+    font-size:0.8rem;
 }
 
 body {
@@ -298,7 +298,7 @@ a{
 
 .black_star{
     position:absolute;
-    top:430px;
+    top:40px;
     left:250px;
 }
 
@@ -691,14 +691,14 @@ font-size:1.5rem;
    
 .shiki{
     position:absolute;
-    top:1400px;
-    left:350px;
+    top:1900px;
+    left:390px;
 }
 
 .now_or_never{
     position:absolute;
-    top:1520px;
-    left:100px;
+    top:1950px;
+    left:200px;
 }
 
 .ralphs{
@@ -751,8 +751,8 @@ font-size:1.5rem;
 
 .blackstone{
     position:absolute;
-    top:1300px;
-    left:30px;
+    top:1750px;
+    left:100px;
 }
 
 .oslo{
@@ -763,37 +763,37 @@ font-size:1.5rem;
 
 .maman{
     position:absolute;
-    top:1380px;
-    left:30px;
+    top:1850px;
+    left:100px;
 }
 
 .merriweather{
     position:absolute;
-    top:1240px;
-    left:30px;}
+    top:1600px;
+    left:100px;}
 
 .laughing_man{
     position:absolute;
-    top:1620px;
-    left:60px;}
+    top:2080px;
+    left:150px;}
 
 
 .blue_bottle{
     position:absolute;
-    top:1660px;
-    left:150px;
+    top:2120px;
+    left:250px;
 }
 
 .blue_spoon{
     position:absolute;
-    top:1620px;
-    left:300px;
+    top:2100px;
+    left:400px;
 }
 
 .amazon{
     position:absolute;
-    top:1700px;
-    left:230px;
+    top:2180px;
+    left:330px;
 }
 
 .kam_hing{
@@ -804,14 +804,14 @@ font-size:1.5rem;
 
 .birch{
     position:absolute;
-    top:1600px;
-    left:430px;
+    top:2150px;
+    left:550px;
 }
 
 .starbucks{
     position:absolute;
-    top:1600px;
-    left:550px;
+    top:2150px;
+    left:650px;
 }
 
 .bean{
@@ -840,14 +840,14 @@ font-size:1.5rem;
 
 .saturdays{
     position:absolute;
-    top:1470px;
-    left:410px;
+    top:1900px;
+    left:430px;
 }
 
 .happy_bones{
     position:absolute;
-    top:1520px;
-    left:410px;
+    top:2000px;
+    left:450px;
 }
 
 .kettl{
@@ -858,14 +858,14 @@ font-size:1.5rem;
 
 .chai_spot{
     position:absolute;
-    top:1480px;
+    top:1900px;
     left:470px;
 }
 
 .urban_backyard{
     position:absolute;
-    top:1480px;
-    left:350px;
+    top:2000px;
+    left:400px;
 }
 
 .yours{
@@ -876,8 +876,8 @@ font-size:1.5rem;
 
 .leon_dore{
     position:absolute;
-    top:1520px;
-    left:470px;
+    top:2000px;
+    left:500px;
 }
 
 .everyman{
@@ -900,8 +900,8 @@ font-size:1.5rem;
 
 .lazy_llama{
     position:absolute;
-    top:1320px;
-    left:600px;
+    top:1700px;
+    left:620px;
 }
 
 .elsewhere{
@@ -912,26 +912,26 @@ font-size:1.5rem;
 
 .seveneightseven{
     position:absolute;
-    top:1230px;
-    left:550px;
+    top:1450px;
+    left:570px;
 }
 
 .ludlow{
     position:absolute;
-    top:1410px;
-    left:580px;
+    top:1800px;
+    left:600px;
 }
 
 .grumpy{
     position:absolute;
-    top:1480px;
-    left:610px;
+    top:1900px;
+    left:630px;
 }
 
 .waypoint{
     position:absolute;
-    top:1500px;
-    left:630px;
+    top:1900px;
+    left:680px;
 }
 .locationnavbar{
     display:none;
@@ -939,26 +939,26 @@ font-size:1.5rem;
 
 .dreamers{
     position:absolute;
-    top:1550px;
-    left:550px;
+    top:2050px;
+    left:650px;
 }
 
 .velvette{
     position:absolute;
-    top:1410px;
-    left:630px;
+    top:1800px;
+    left:680px;
 }
 
 .patoro{
     position:absolute;
-    top:1620px;
-    left:700px;
+    top:2150px;
+    left:750px;
 }
 
 .downtown_coffee{
     position:absolute;
-    top:1550px;
-    left:650px;
+    top:2000px;
+    left:700px;
 }
 
 .mudpark{
