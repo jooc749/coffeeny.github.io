@@ -190,18 +190,18 @@ button{
     display:inline-block;
     position:relative;
     bottom:0;
-    
+    display:none;
 }
 
 .address-location{
- display:flex;
+ display:none;
  font-size:0.9rem;
     padding-top:0;
     color:black;
 }
 
 .shop-title{
-    display:flex;
+    display:none;
     padding-bottom:10px;
     margin:0;
     color:black;
@@ -336,7 +336,7 @@ font-size:1.5rem;
         display:inline-block;
         position:relative;
         bottom:0;
-        
+        padding:35px;
     }
     
     .address-location{

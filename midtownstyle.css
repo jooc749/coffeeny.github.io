@@ -19,6 +19,7 @@ body {
 
 .openbtn{
     font-size:0.8rem;
+
 }
 
 h2{
@@ -273,13 +274,13 @@ a{
 }
 
 .address-location{
-    display:flex;
+    display:none;
     font-size:0.9rem;
        padding-top:0;
    }
    
    .shop-title{
-       display:flex;
+       display:none;
        padding-bottom:10px;
        margin:0;
    }
