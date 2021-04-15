@@ -11,86 +11,6 @@ body {
     padding:5px;
 }
 
-
-.store-image{
-    width:80%;
-    display:inline-block;
-    position:relative;
-    bottom:0;
-    
-}
-
-.address-location{
- display:flex;
- font-size:0.9rem;
-    padding-top:0;
-    color:black;
-}
-
-.shop-title{
-    display:flex;
-    padding-bottom:10px;
-    margin:0;
-    color:black;
-}
-
-.coffee-description{
-  
-    display:none;
-    width:300px;
-    height:auto;
-    background-color:#A8947C;
-    position:fixed;
-    overflow:hidden;
-    right:20px;
-    bottom:20px;
-}
-
-.uptown, .brooklyn, .stisland{
-    display:none;
-}
-
-.midtown{
-    display:none;
-}
-.downtown{
-    display:none;
-}
-
-.old_country{
-    display:none;
-}
-
-.mamas{
-    display:none;
-}
-/*for some reason, when display none for culture espresso, mouseover won't work so I've placed it off the page manually*/
-div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
-    position:fixed;
-    top:-500px;
-    left:-500px;
-}  
-
- .zibetto{
-    display:none;
-} 
-  
-.rex{
-    display:none;
-}
-
-.for_five{
-    display:none;
-}
-
-.bibble{
-    display:none;
-}
-
-.double_dutch{
-    display:none;
-}
-
 .locationnavbar{
     display:none;
 }
@@ -111,6 +31,20 @@ h2{
     font-size:1rem;
 }
 
+/* .midtown, .brooklyn, .downtown, .bronx, .stisland{
+    display:none;
+} */
+
+.midtown{
+    display:none;
+}
+
+/* .uptown2, .midtown2, .downtown2, .brooklyn2{
+    display:inline-block;
+    font-size:1rem;
+    padding:10px;
+
+} */
 
 h1{
     font-size:1rem;
@@ -237,6 +171,15 @@ button{
     color:bisque;
 }
 
+/* .coffee-description{
+    width:40%;
+    background-color:#A8947C;
+    color:black;
+    position:absolute;
+    margin-left: 100px;
+    z-index:100;
+    /* margin-top:150px; */
+/* } */ 
 
 .location{
     text-align:right;
@@ -328,9 +271,75 @@ font-size:1.5rem;
     
 }
 
-/* .midtown, .brooklyn, .uptown, .stisland, .downtown{
+.store-image{
+    width:80%;
+    display:inline-block;
+    position:relative;
+    bottom:0;
+    
+}
+
+.address-location{
+ display:flex;
+ font-size:0.9rem;
+    padding-top:0;
+    color:black;
+}
+
+.shop-title{
+    display:flex;
+    padding-bottom:10px;
+    margin:0;
+    color:black;
+}
+
+.coffee-description{
+  
     display:none;
-} */
+    width:300px;
+    height:auto;
+    background-color:#A8947C;
+    position:fixed;
+    overflow:hidden;
+    right:20px;
+    bottom:20px;
+}
+
+
+.old_country{
+    display:none;
+}
+
+.mamas{
+    display:none;
+}
+/*for some reason, when display none for culture espresso, mouseover won't work so I've placed it off the page manually*/
+div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
+    position:fixed;
+    top:-500px;
+    left:-500px;
+}  
+
+ .zibetto{
+    display:none;
+} 
+  
+.rex{
+    display:none;
+}
+
+.for_five{
+    display:none;
+}
+
+.bibble{
+    display:none;
+}
+
+ 
+.downtown, .midtown, .uptown, .stisland, .brooklyn{
+    display:none;
+}
 
 @media only screen and (min-width:800px){
     body {
@@ -495,7 +504,8 @@ font-size:1.5rem;
         display:inline-block;
         position:relative;
         bottom:0;
-        padding:30px;
+     padding:30px;
+        
     }
     
     .address-location{
@@ -523,25 +533,47 @@ font-size:1.5rem;
         right:20px;
         bottom:20px;
     }
+    
     a{
         text-decoration:none;
         color:bisque;
     }
     
-    .uptown_hide, .brooklyn_hide, .stisland_hide{
+    .coffee-container.uptown.double_dutch{
+        position:absolute;
+        top:580px;
+        left:250px;
+    }
+
+    .coffee-container.midtown.culture.more_than_coffee{
+        position:absolute;
+        top:380px;
+        left:400px;
+    }
+    
+    p{
         display:none;
     }
 
-    .downtown_hide{
-        display:none;
+    h1{
+        font-size:2rem;
     }
-    
+
+    .midtown{
+        display:block;
+    }
+
+
     .old_country{
-        display:none;
+        position:absolute;
+    top:-500px;
+    left:-500px;
     }
     
     .mamas{
-        display:none;
+        position:absolute;
+        top:-500px;
+        left:-500px;
     }
     /*for some reason, when display none for culture espresso, mouseover won't work so I've placed it off the page manually*/
     div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
@@ -551,35 +583,32 @@ font-size:1.5rem;
     }  
     
      .zibetto{
-        display:none;
+        position:absolute;
+        top:-500px;
+        left:-500px;
     } 
       
     .rex{
-        display:none;
+        position:absolute;
+        top:-500px;
+        left:-500px;
     }
     
     .for_five{
-        display:none;
+        position:absolute;
+        top:-500px;
+        left:-500px;
     }
     
     .bibble{
-        display:none;
-    }
-    p{
-        display:none;
-    }
-
-    h1{
-        font-size:2rem;
+        position:absolute;
+        top:-500px;
+        left:-500px;
     }
 
-    .double_dutch{
+    .downtown_hide, .brooklyn_hide, .stisland_hide, .uptown_hide{
         display:none;
     }
-/* 
-    .midtown, .brooklyn, .downtown, .uptown, .stisland{
-        display:none;
-    } */
     
    .locationnavbar{
        overflow:hidden;
@@ -633,33 +662,5 @@ font-size:1.5rem;
        display:block;
         transform:rotate(-90deg);
    }
-
-   .js-aesthetic:hover{
-    color:#f598b2;
-}
-
-.js-dog:hover{
-    color:#26cdeb;
-}
-
-.js-ethical:hover{
-    color:#f5d473;
-}
-
-.js-morethancoffee:hover{
-    color:#ff392b;
-}
-
-.js-poc:hover{
-    color:#d7bcf5;
-}
-
-.js-vegan:hover{
-    color:#58bf66;
-}
-
-.js-woman:hover{
-    color:#ed2da0;
-}
 
 }
