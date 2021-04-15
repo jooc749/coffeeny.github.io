@@ -11,6 +11,39 @@ body {
     padding:5px;
 }
 
+.store-image{
+    width:80%;
+    display:inline-block;
+    position:relative;
+    bottom:0;
+    
+}
+
+.address-location{
+ display:flex;
+ font-size:0.9rem;
+    padding-top:0;
+    color:black;
+}
+
+.shop-title{
+    display:flex;
+    padding-bottom:10px;
+    margin:0;
+    color:black;
+}
+
+.coffee-description{
+  
+    display:none;
+    width:300px;
+    height:auto;
+    background-color:#A8947C;
+    position:fixed;
+    overflow:hidden;
+    right:20px;
+    bottom:20px;
+}
 .locationnavbar{
     display:none;
 }
@@ -157,23 +190,6 @@ button{
     color:bisque;
 }
 
-/* .coffee-description{
-    width:40%;
-    background-color:#A8947C;
-    color:black;
-    position:absolute;
-    margin-left: 100px;
-    z-index:100;
-    /* margin-top:150px; */
-/* } */ 
-
-.store-image{
-    width:30%;
-    padding:30px;
-    position:absolute;
-    top:0;
-    right:0;
-}
 
 .location{
     text-align:right;

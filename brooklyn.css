@@ -31,10 +31,6 @@ h2{
     display:none;
 } */
 
-.midtown{
-    display:none;
-}
-
   
 .locationnavbar{
    display:none;
@@ -74,33 +70,6 @@ h3{
     
 }
 
-.store-image {
-   display:none;
-}
-
-.store-image.active{
-    display:block;
-  
-}
-
-.address-location {
-    display:none;
-    width:100%;
-}
-
-.address-location.active{
-    display:block;
-}
-
-.shop-title{
-    display:none;
-    width:100%;
-}
-
-.shop-title.active{
-    display:block;
-  
-}
 
 .yaxis{
     width:1px;
@@ -265,9 +234,6 @@ font-size:1.5rem;
    right:20px;
 }
 
-.midtown, .stisland, .uptown, .bronx, .downtown{
-    display:none;
-}
 
 .upright{
     position:absolute;
@@ -510,32 +476,39 @@ font-size:1.5rem;
         display:inline-block;
     }
     
-    .store-image {
-       display:none;
+
+    .store-image{
+        width:80%;
+        display:inline-block;
+        position:relative;
+        bottom:0;
+        
     }
     
-    .store-image.active{
-        display:block;
-      
-    }
-    
-    .address-location {
-        display:none;
-        width:100%;
-    }
-    
-    .address-location.active{
-        display:block;
+    .address-location{
+     display:flex;
+     font-size:0.9rem;
+        padding-top:0;
+        color:black;
     }
     
     .shop-title{
-        display:none;
-        width:100%;
+        display:flex;
+        padding-bottom:10px;
+        margin:0;
+        color:black;
     }
     
-    .shop-title.active{
-        display:block;
+    .coffee-description{
       
+        display:none;
+        width:300px;
+        height:auto;
+        background-color:#A8947C;
+        position:fixed;
+        overflow:hidden;
+        right:20px;
+        bottom:20px;
     }
     
     .yaxis{
@@ -654,26 +627,7 @@ font-size:1.5rem;
         position:fixed;
         cursor:pointer;
     }
-    
-    .coffee-description{
-        width:40%;
-        height:auto;
-        background-color:#A8947C;
-        color:black;
-        position:absolute;
-        margin-left: 300px;
-        z-index:100;
-        margin-top:150px;
-        display:none;
-    }
-    
-    .store-image{
-        width:30%;
-        padding:30px;
-        position:absolute;
-        top:0;
-        right:0;
-    }
+
     
     .location{
         text-align:right;
@@ -708,11 +662,41 @@ font-size:1.5rem;
         font-size:2rem;
     }
 
-    .midtown, .stisland, .downtown, .uptown, .bronx{
+    .uptown_hide, .downtown_hide, .stisland_hide, .bronx_hide{
         display:none;
     }
 
+
+    .old_country{
+        display:none;
+    }
     
+    .mamas{
+        display:none;
+    }
+    /*for some reason, when display none for culture espresso, mouseover won't work so I've placed it off the page manually*/
+    div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
+        position:fixed;
+        top:-500px;
+        left:-500px;
+    }  
+    
+     .zibetto{
+        display:none;
+    } 
+      
+    .rex{
+        display:none;
+    }
+    
+    .for_five{
+        display:none;
+    }
+    
+    .bibble{
+        display:none;
+    }
+
    .locationnavbar{
        overflow:hidden;
        background-color:pink;
