@@ -202,6 +202,14 @@ p{
 }
 
 
+.uptown_hide, .brooklyn_hide, .stisland_hide, .downtown_hide, .bronx_hide{
+    display:none;
+}
+
+.double_dutch{
+    display:none;
+}
+
 /* .location{
     text-align:right;
     display:flex;
@@ -263,6 +271,31 @@ a{
     font-size:1rem;
     padding:15px;
 }
+
+.address-location{
+    display:flex;
+    font-size:0.9rem;
+       padding-top:0;
+   }
+   
+   .shop-title{
+       display:flex;
+       padding-bottom:10px;
+       margin:0;
+   }
+   
+   .coffee-description{
+     
+       display:none;
+       width:300px;
+       height:auto;
+       background-color:#A8947C;
+       position:fixed;
+       overflow:hidden;
+       right:20px;
+       bottom:20px;
+   }
+
 
 .locationnavbar{
     overflow:hidden;
@@ -373,35 +406,7 @@ a{
         border-radius:50%;
         display:inline-block;
     }
-    
-    .store-image {
-       display:none;
-    }
-    
-    .store-image.active{
-        display:block;
-      
-    }
-    
-    .address-location {
-        display:none;
-        width:100%;
-    }
-    
-    .address-location.active{
-        display:block;
-    }
-    
-    .shop-title{
-        display:none;
-        width:100%;
-    }
-    
-    .shop-title.active{
-        display:block;
-      
-    }
-    
+  
     .yaxis{
         width:1px;
         background:bisque;

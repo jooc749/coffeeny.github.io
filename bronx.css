@@ -44,6 +44,56 @@ body {
     right:20px;
     bottom:20px;
 }
+
+.uptown_hide, .brooklyn_hide, .stisland_hide{
+    display:none;
+}
+
+.downtown_hide{
+    display:none;
+}
+
+.old_country{
+    display:none;
+}
+
+.mamas{
+    display:none;
+}
+/*for some reason, when display none for culture espresso, mouseover won't work so I've placed it off the page manually*/
+div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
+    position:fixed;
+    top:-500px;
+    left:-500px;
+}  
+
+ .zibetto{
+    display:none;
+} 
+  
+.rex{
+    display:none;
+}
+
+.for_five{
+    display:none;
+}
+
+.bibble{
+    display:none;
+}
+p{
+    display:none;
+}
+
+h1{
+    font-size:2rem;
+}
+
+.double_dutch{
+    display:none;
+}
+
 .locationnavbar{
     display:none;
 }
