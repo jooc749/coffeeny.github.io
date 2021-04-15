@@ -245,7 +245,7 @@ div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
 }
 
  
-.downtown_hide, .brooklyn_hide, .stisland_hide, .bronx_hide{
+.downtown, .midtown, .bronx, .stisland, .brooklyn{
     display:none;
 }
 /* .location{ */
@@ -582,26 +582,6 @@ a{
         cursor:pointer;
     }
     
-    .coffee-description{
-        width:40%;
-        height:auto;
-        background-color:#A8947C;
-        color:black;
-        position:absolute;
-        margin-left: 300px;
-        z-index:100;
-        margin-top:150px;
-        display:none;
-    }
-    
-    .store-image{
-        width:30%;
-        padding:30px;
-        position:absolute;
-        top:0;
-        right:0;
-    }
-    
     .location{
         text-align:right;
         display:flex;
@@ -634,12 +614,12 @@ a{
     h1{
         font-size:2rem;
     }
-
     .store-image{
         width:80%;
         display:inline-block;
         position:relative;
         bottom:0;
+     padding:30px;
         
     }
     
@@ -669,13 +649,20 @@ a{
         bottom:20px;
     }
 
+    .midtown{
+        display:block;
+    }
 
     .old_country{
-        display:none;
+        position:absolute;
+    top:-500px;
+    left:-500px;
     }
     
     .mamas{
-        display:none;
+        position:absolute;
+        top:-500px;
+        left:-500px;
     }
     /*for some reason, when display none for culture espresso, mouseover won't work so I've placed it off the page manually*/
     div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
@@ -685,19 +672,27 @@ a{
     }  
     
      .zibetto{
-        display:none;
+        position:absolute;
+        top:-500px;
+        left:-500px;
     } 
       
     .rex{
-        display:none;
+        position:absolute;
+        top:-500px;
+        left:-500px;
     }
     
     .for_five{
-        display:none;
+        position:absolute;
+        top:-500px;
+        left:-500px;
     }
     
     .bibble{
-        display:none;
+        position:absolute;
+        top:-500px;
+        left:-500px;
     }
 
      
@@ -832,5 +827,34 @@ a{
         
      
    }
+
+   .js-aesthetic:hover{
+    color:#f598b2;
+}
+
+.js-dog:hover{
+    color:#26cdeb;
+}
+
+.js-ethical:hover{
+    color:#f5d473;
+}
+
+.js-morethancoffee:hover{
+    color:#ff392b;
+}
+
+.js-poc:hover{
+    color:#d7bcf5;
+}
+
+.js-vegan:hover{
+    color:#58bf66;
+}
+
+.js-woman:hover{
+    color:#ed2da0;
+}
+
 
 }

@@ -99,24 +99,28 @@ h3{
     bottom:20px;
 }
 
-
-.brooklyn_hide{
+.midtown{
     display:none;
 }
 
-.uptown_hide{
+
+.brooklyn{
     display:none;
 }
 
-.brooklyn_hide{
+.uptown{
     display:none;
 }
 
-.stisland_hide{
+.brooklyn{
     display:none;
 }
 
-.bronx_hide{
+.stisland{
+    display:none;
+}
+
+.bronx{
     display:none;
 }
    
@@ -759,11 +763,15 @@ font-size:1.5rem;
 }
    
 .old_country{
-    display:none;
+    position:absolute;
+    top:-500px;
+    left:-500px;
 }
 
 .mamas{
-    display:none;
+    position:absolute;
+    top:-500px;
+    left:-500px;
 }
 /*for some reason, when display none for culture espresso, mouseover won't work so I've placed it off the page manually*/
 div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
@@ -773,22 +781,34 @@ div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
 }  
 
  .zibetto{
-    display:none;
+    position:absolute;
+    top:-500px;
+    left:-500px;
 } 
   
 .rex{
-    display:none;
+    position:absolute;
+    top:-500px;
+    left:-500px;
 }
 
 .for_five{
-    display:none;
+    position:absolute;
+    top:-500px;
+    left:-500px;
 }
 
 .bibble{
-    display:none;
+    position:absolute;
+    top:-500px;
+    left:-500px;
 }
-    
-    .yaxis{
+
+.midtown{
+    display:block;
+}
+
+  .yaxis{
         width:1px;
         background:bisque;
         height:70vh;
@@ -1307,5 +1327,34 @@ left:550px;
         
      
    }
+
+   .js-aesthetic:hover{
+    color:#f598b2;
+}
+
+.js-dog:hover{
+    color:#26cdeb;
+}
+
+.js-ethical:hover{
+    color:#f5d473;
+}
+
+.js-morethancoffee:hover{
+    color:#ff392b;
+}
+
+.js-poc:hover{
+    color:#d7bcf5;
+}
+
+.js-vegan:hover{
+    color:#58bf66;
+}
+
+.js-woman:hover{
+    color:#ed2da0;
+}
+
 
 }
