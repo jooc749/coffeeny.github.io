@@ -937,11 +937,11 @@ coffeeContainer.addEventListener("click", function createPage(){
          })
 
         // //add event Listener for resetting filter 
-        // var filterReset = document.querySelector('.js-reset')
-        // filterReset.addEventListener("click", function(){
-        //   coffeeContainer.style.background = "transparent";
-        
-        // })
+        var filterReset = document.querySelector('.js-reset')
+        filterReset.addEventListener("click", function(){
+          coffeeContainer.style.background = "transparent";
+         }
+        )
 
         
         
