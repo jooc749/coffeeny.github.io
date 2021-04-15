@@ -35,9 +35,7 @@ h2{
     display:none;
 } */
 
-.midtown{
-    display:none;
-}
+ 
 
 
 
@@ -610,10 +608,10 @@ font-size:1.5rem;
 
 
 
-
+/* 
 .midtown, .brooklyn, .uptown, .stisland, .bronx{
     display:none;
-}
+} */
 
 @media only screen and (min-width:800px){
     body {
@@ -653,8 +651,57 @@ font-size:1.5rem;
        font-weight:bold;
     }
     
+
+
+.brooklyn_hide{
+    display:none;
+}
+
+.uptown_hide{
+    display:none;
+}
+
+.brooklyn_hide{
+    display:none;
+}
+
+.stisland_hide{
+    display:none;
+}
+
+.bronx_hide{
+    display:none;
+}
    
-   
+.old_country{
+    display:none;
+}
+
+.mamas{
+    display:none;
+}
+/*for some reason, when display none for culture espresso, mouseover won't work so I've placed it off the page manually*/
+div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
+    position:fixed;
+    top:-500px;
+    left:-500px;
+}  
+
+ .zibetto{
+    display:none;
+} 
+  
+.rex{
+    display:none;
+}
+
+.for_five{
+    display:none;
+}
+
+.bibble{
+    display:none;
+}
     
     .yaxis{
         width:1px;
@@ -1105,11 +1152,7 @@ left:550px;
         left:250px;
     }
 
-    .coffee-container.midtown.culture.more_than_coffee{
-        position:absolute;
-        top:380px;
-        left:400px;
-    }
+    
     
     p{
         display:none;
@@ -1118,10 +1161,10 @@ left:550px;
     h1{
         font-size:2rem;
     }
-
+/* 
     .midtown, .brooklyn, .bronx, .uptown, .stisland{
         display:none;
-    }
+    } */
 
     
    .locationnavbar{
