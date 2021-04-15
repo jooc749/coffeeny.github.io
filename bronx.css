@@ -663,4 +663,33 @@ div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
         transform:rotate(-90deg);
    }
 
+
+   .js-aesthetic:hover{
+    color:#f598b2;
+}
+
+.js-dog:hover{
+    color:#26cdeb;
+}
+
+.js-ethical:hover{
+    color:#f5d473;
+}
+
+.js-morethancoffee:hover{
+    color:#ff392b;
+}
+
+.js-poc:hover{
+    color:#d7bcf5;
+}
+
+.js-vegan:hover{
+    color:#58bf66;
+}
+
+.js-woman:hover{
+    color:#ed2da0;
+}
+
 }
