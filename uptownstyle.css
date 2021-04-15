@@ -67,33 +67,7 @@ h3{
     
 }
 
-.store-image {
-   display:none;
-}
 
-.store-image.active{
-    display:block;
-  
-}
-
-.address-location {
-    display:none;
-    width:100%;
-}
-
-.address-location.active{
-    display:block;
-}
-
-.shop-title{
-    display:none;
-    width:100%;
-}
-
-.shop-title.active{
-    display:block;
-  
-}
 
 .yaxis{
     width:1px;
@@ -395,10 +369,6 @@ a{
 
 
 
-.midtown, .brooklyn, .bronx, .stisland, .downtown{
-    display:none;
-}
-
 @media only screen and (min-width:800px){
     body {
         font-family: 'Gilda Display', serif;
@@ -447,33 +417,6 @@ a{
         display:inline-block;
     }
     
-    .store-image {
-       display:none;
-    }
-    
-    .store-image.active{
-        display:block;
-      
-    }
-    
-    .address-location {
-        display:none;
-        width:100%;
-    }
-    
-    .address-location.active{
-        display:block;
-    }
-    
-    .shop-title{
-        display:none;
-        width:100%;
-    }
-    
-    .shop-title.active{
-        display:block;
-      
-    }
     
     .yaxis{
         width:1px;
@@ -646,9 +589,78 @@ a{
         font-size:2rem;
     }
 
-    .midtown, .brooklyn, .downtown, .bronx, .stisland{
+    .store-image{
+        width:80%;
+        display:inline-block;
+        position:relative;
+        bottom:0;
+        
+    }
+    
+    .address-location{
+     display:flex;
+     font-size:0.9rem;
+        padding-top:0;
+        color:black;
+    }
+    
+    .shop-title{
+        display:flex;
+        padding-bottom:10px;
+        margin:0;
+        color:black;
+    }
+    
+    .coffee-description{
+      
+        display:none;
+        width:300px;
+        height:auto;
+        background-color:#A8947C;
+        position:fixed;
+        overflow:hidden;
+        right:20px;
+        bottom:20px;
+    }
+
+
+    .old_country{
         display:none;
     }
+    
+    .mamas{
+        display:none;
+    }
+    /*for some reason, when display none for culture espresso, mouseover won't work so I've placed it off the page manually*/
+    div.coffee-container.midtown.culture.more_than_coffee.midtown_hide{
+        position:fixed;
+        top:-500px;
+        left:-500px;
+    }  
+    
+     .zibetto{
+        display:none;
+    } 
+      
+    .rex{
+        display:none;
+    }
+    
+    .for_five{
+        display:none;
+    }
+    
+    .bibble{
+        display:none;
+    }
+
+     
+    .downtown_hide, .brooklyn_hide, .stisland_hide, .bronx_hide{
+        display:none;
+    }
+
+
+
 
     .forever{
         position:absolute;
